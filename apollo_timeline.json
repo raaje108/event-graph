@@ -1,0 +1,819 @@
+{
+  "topic": "french revolution",
+  "generated_at": "2026-11-14T14:05:20.023454+00:00",
+  "method": "Delegated multi-agent research: parallel search, publisher verification, parallel scraping, context extraction, dated event analysis, evidence review, and timeline editing",
+  "agent_run": [
+    {
+      "agent": "ResearchPlannerAgent",
+      "status": "completed",
+      "delegated_search_tasks": 7
+    },
+    {
+      "agent": "NewsSearchAgent",
+      "status": "completed",
+      "tasks": [
+        {
+          "provider": "bing",
+          "query": "french revolution",
+          "candidate_count": 10,
+          "error": ""
+        },
+        {
+          "provider": "google",
+          "query": "french revolution",
+          "candidate_count": 50,
+          "error": ""
+        },
+        {
+          "provider": "bing",
+          "query": "french revolution timeline key events",
+          "candidate_count": 2,
+          "error": ""
+        },
+        {
+          "provider": "google",
+          "query": "french revolution timeline key events",
+          "candidate_count": 29,
+          "error": ""
+        },
+        {
+          "provider": "bing",
+          "query": "french revolution history chronology dates",
+          "candidate_count": 0,
+          "error": ""
+        },
+        {
+          "provider": "google",
+          "query": "french revolution history chronology dates",
+          "candidate_count": 35,
+          "error": ""
+        },
+        {
+          "provider": "wikipedia",
+          "query": "french revolution",
+          "candidate_count": 20,
+          "error": ""
+        }
+      ]
+    },
+    {
+      "agent": "WikipediaReferenceAgent",
+      "status": "completed",
+      "reference_pages": [
+        {
+          "title": "French Revolution",
+          "url": "https://en.wikipedia.org/wiki/French_Revolution",
+          "reference_count": 20
+        }
+      ]
+    },
+    {
+      "agent": "SourceQualityAgent",
+      "status": "completed",
+      "trusted_sources_selected": 20
+    },
+    {
+      "agent": "ArticleScraperAgent",
+      "status": "completed",
+      "pages_scraped": 20
+    },
+    {
+      "agent": "ArticleContextAgent",
+      "status": "completed",
+      "source_briefs_created": 20
+    },
+    {
+      "agent": "TimelineAnalystAgent",
+      "status": "completed",
+      "event_claims_extracted": 5
+    },
+    {
+      "agent": "EvidenceReviewerAgent",
+      "status": "completed",
+      "claims_supported": 5,
+      "claims_rejected": 0
+    },
+    {
+      "agent": "TimelineEditor",
+      "status": "completed",
+      "timeline_entries": 5
+    },
+    {
+      "agent": "ReportWriterAgent",
+      "status": "completed"
+    }
+  ],
+  "limitations": [
+    "The search engine is not exhaustive; source quality depends on its result ranking.",
+    "Paywalls and blocked pages may leave only an RSS or metadata summary.",
+    "Month/day dates without a year use the dominant year in that article and are labeled as inferred.",
+    "Different sourced accounts are retained separately unless their dated sentences match exactly.",
+    "Wikipedia references are supplementary pointers; each linked publisher page is fetched and checked separately."
+  ],
+  "source_count": 20,
+  "rejected_event_claims": 0,
+  "articles": [
+    {
+      "title": "Daily Quiz: On French revolution",
+      "url": "https://www.thehindu.com/news/international/daily-quiz-on-french-revolution/article71684798.ece",
+      "publisher": "The Hindu",
+      "published_at": "2026-11-10T17:11:00+05:30",
+      "paragraphs": [
+        "Subscribed with another email? Logout and Login with that one.",
+        "Account subscription benefits alongside Premium Stories, Editorials, Opinions and more. Unlock these with Subscription",
+        "Joseph-Ignace Guillotin was the French physician and revolutionary politician whose name became an eponym for a device associated with executions during the French Revolution. Although he did not invent the device, he advocated a more humane method of execution and opposed the death penalty. | Photo Credit: Carnavalet Museum",
+        "Terms & conditions | Institutional Subscriber",
+        "Comments have to be in English, and in full sentences. They cannot be abusive or personal. Please abide by our community guidelines for posting your comments.",
+        "We have migrated to a new commenting platform. If you are already a registered user of The Hindu and logged in, you may continue to engage with our articles. If you do not have an account please register and login to post comments. Users can access their older comments by logging into their accounts on Vuukle."
+      ],
+      "fetch_status": "ok",
+      "rss_summary": "The Hindu quiz: From the radical upheaval of the French Revolution to the attempt to replace religious authority with reason, explore the ideas, personalities and political ambitions behind the controversial Cult of Reason",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "UPSC Mains Answer Practice — GS 1: Kalighat paintings and the French Revolution (Week 179)",
+      "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-mains-answer-practice-gs-1-week-179-10951820/",
+      "publisher": "The Indian Express",
+      "published_at": "2026-11-05T16:56:24+05:30",
+      "paragraphs": [
+        "UPSC Essentials brings to you its initiative for the practice of Mains answer writing . It covers essential topics from both the static and dynamic portions of the UPSC Civil Services syllabus across various GS papers. The questions are carefully selected on the basis of their relevance to the UPSC examination and current developments, helping aspirants focus on themes that matter most for Mains. This answer-writing practice is designed as a value addition to your UPSC CSE Mains preparation. Attempt today’s GS-1 questions and check your progress.",
+        "🚨 Click Here to read the UPSC Essentials magazine for October 2026 . Share your views and suggestions in the comment box or at manas.srivastava@indianexpress.com🚨",
+        "Folk art traditions often serve as mirrors of contemporary society. Examine this statement with reference to Kalighat paintings.",
+        "The French Revolution had a significant influence on political developments beyond Europe, including in India. Examine its impact on Indian political movements and regional powers.",
+        "QUESTION 1: Folk art traditions often serve as mirrors of contemporary society. Examine this statement with reference to Kalighat paintings.",
+        "Relevance: The topic examines the role of traditional art forms as sources of social history and expressions of contemporary society. It is relevant for GS 1 syllabus: Indian culture – salient aspects of Art Forms, literature and Architecture from ancient to modern times.",
+        "N ote: This is not a model UPSC answer. It only provides you with a thought process which you may incorporate into the answers.",
+        "— Folk art represents a society’s social realities, political developments, and evolving lifestyles in addition to religious beliefs and cultural traditions.",
+        "— This function is best illustrated by the nineteenth-century Bengali Kalighat paintings, which show religious themes in addition to colonial influence, urban culture, gender relations, and current social issues.",
+        "You may incorporate some of the following points in your answer:",
+        "Kalighat paintings as mirrors of contemporary society",
+        "— Kalighat paintings first appeared as reasonably priced pilgrims’ mementos at the Kalighat Kali shrine in Calcutta. They reflected common religious beliefs and practices by portraying Hindu deities and mythological stories. Bold contours, vibrant colors, and simplified human figures were characteristics of the works.",
+        "— The Patua community’s ideas and artistic practices were impacted by Calcutta’s rise to prominence as a colonial metropolis. A portion of the educated Bengali community adopted British attire, mannerisms, and lifestyles, which was portrayed in paintings of Westernized Bengali gentlemen (Babus).",
+        "— Kalighat painters made commentary on modern societal behaviors through satire, humor, and caricature. Goddesses, wives, courtesans, and urban figures were among the various roles in which women were portrayed. Contemporary concerns about sexuality, domestic relationships, and shifting gender roles were represented in paintings like Barber Cleaning a Woman’s Ear. These depictions shed light on gendered hierarchy and women’s social status in colonial Bengal. Folk art became a significant medium for societal commentary because of these depictions.",
+        "— Folk art has the capacity to capture current public discussions, as evidenced by the way artists transformed a hotly debated criminal case into visual storytelling. Additionally, this established paintings as a casual medium for social commentary and news dissemination.",
+        "— The shift from large narrative scrolls to individual, portable paintings mirrored evolving consumer desires and urban lifestyles. Artists tailored their themes to appeal to pilgrims, city dwellers, merchants, and European collectors.",
+        "— Kalighat paintings show that folk art is a living cultural expression that evolves alongside society. Aside from sustaining religious traditions, they offer important insights into colonial modernity, social hierarchy, gender relations, and popular culture.",
+        "— Preserving such art forms is thus critical not only for protecting cultural legacy, but also for understanding India’s social past.",
+        "(Sources: From goddesses to gossip: The many stories of Kalighat paintings , A new series of Kalighat pat paintings by Uttam Chitrakar celebrates gay love and transpersons , ‘The Babu and The Bazaar’ at DAG celebrates art of 19th-Century Bengal , Hooked on ‘ilish-ious’ hilsa: The fish that inspires Bengal’s art, culture, and poetry )",
+        "What are the major characteristics and themes of Kalighat paintings?",
+        "What challenges do traditional folk art forms face in preservation and continuity?",
+        "Mesolithic rock cut architecture of India not only reflects the cultural life of the times but also a fine aesthetic sense comparable to modern painting. Critically evaluate this comment. (2015)",
+        "QUESTION 2: The French Revolution had a significant influence on political developments beyond Europe, including in India. Examine its impact on Indian political movements and regional powers.",
+        "Relevance: The topic is important for understanding the influence of European political developments and revolutionary ideologies on India’s eighteenth-century political landscape.",
+        "N ote: This is not a model UPSC answer. It only provides you with a thought process which you may incorporate into the answers.",
+        "— The French Revolution of 1789, which was founded on the ideas of liberty, equality, and fraternity, had an impact on political developments well beyond Europe.",
+        "— In India, its influence was reflected in democratic experiments in French colonies, Tipu Sultan’s diplomatic contact with Revolutionary France, and political-military cooperation between French and Indian regional rulers.",
+        "You may incorporate some of the following points in your answer:",
+        "Impact on Indian political movements and regional powers",
+        "— In Pondicherry (1790), French residents formed a General Assembly, a representative committee, a citizen militia, and an elected municipality. Indians were also given representation in the projected Colonial Assembly, which opened up chances for political participation. Similar experiments occurred in Yanam, Mahé, and Karaikal, when local assemblies contested incumbent administrative power.",
+        "— Revolutionary principles inspired peasants, labourers, and Indian troops to seek their rights from repressive powers. Reforms included the eradication of slavery, the establishment of schools, and measures to combat agrarian exploitation.",
+        "— Tipu Sultan forged diplomatic contacts with Revolutionary France to enhance his opposition to British expansion. In 1797, French revolutionaries founded a small republic at Srirangapatna, championing republican laws, citizenship, and equality. Tipu’s administration implemented agrarian reforms, including as lowering taxes, eliminating cesses, and granting loans to farmers.",
+        "— Revolutionary France formed political and military alliances with the Marathas, who were developing as a major power in northern India. The French and Marathas considered ways to challenge British political supremacy while preserving links with other Indian powers.",
+        "— The British saw revolutionary ideas and French ties as a danger to their colonial interests. They took Pondicherry in 1793 and conquered Tipu Sultan in 1799. As a result, the Anglo-Maratha battles undermined the Maratha Confederacy and aided the rise of British dominance in India.",
+        "— The French Revolution aided the growth of new political ideas, public mobilisation, and anti-British coalitions in eighteenth-century India. Although these experiments were finally banned, they show how India’s political processes were linked to larger worldwide revolutionary currents.",
+        "(Sources: When the French Revolution reached India: The story of Tipu Sultan, the Marathas and the British , How the French Revolution inspired the Indian Constituent Assembly , When Napoleon wanted to conquer India )",
+        "How did Tipu Sultan seek to establish diplomatic and military relations with Revolutionary France?",
+        "The French Revolution has enduring relevance to the contemporary world. Explain. (2025)",
+        "UPSC Essentials: Mains answer practice — GS 3 (Week 178)",
+        "UPSC Essentials: Mains answer practice — GS 3 (Week 179)",
+        "UPSC Essentials: Mains answer practice — GS 2 (Week 178)",
+        "UPSC Essentials: Mains answer practice — GS 2 (Week 179)",
+        "UPSC Essentials: Mains answer practice — GS 1 (Week 178)",
+        "UPSC Essentials: Mains answer practice — GS 1 (Week 177)",
+        "Subscribe to our UPSC newsletter and stay updated with the news cues from the past week.",
+        "Stay updated with the latest UPSC articles by joining our Telegram channel – IndianExpress UPSC Hub , and follow us on Instagram and X."
+      ],
+      "fetch_status": "ok",
+      "rss_summary": "UPSC Mains GS 1 : Kalighat paintings and influence of the French Revolution.",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "The French Revolution | India News",
+      "url": "https://www.hindustantimes.com/india/the-french-revolution/story-0rGAFI0Au75miY3UyBlaoJ.html",
+      "publisher": "Hindustan Times",
+      "published_at": "2012-06-28T17:25:44+05:30",
+      "paragraphs": [
+        "From authentic bakeries to quaint boutiques and fashion stores, the city offers you a heady mix of all things French",
+        "Delhi’s French connection is blooming like never before. The Capital is home to a sizable French community whose number is ever-expanding. Many young French entrepreneurs have set up shops that include eateries, fashion houses and gift stores. If you are looking for a slice of authentic France, these shops have plenty to offer — right from French vintage clothing to authentic mille-feuille. The Capital also boasts of several high-end French labels such as Hermes, Christian Dior, Chanel and Christian Louboutin. We take you on a little trip to France right in our very own city as we put together the best of French experiences that Delhi has to offer.",
+        "A French menswear brand, Celio has become quite popular among the fashion forward Delhi men. If you are looking for casual and formal menswear without burning a hole into your pocket, there are plenty of options such as fine knits, casual shirts, tees, cargoes and bermudas, formal shirts and suits.",
+        "Celio stores have been segregated into sections such as urban, relaxed, club and essentials. The designs are inspired from the global fashion trends, with a young and trendy feel. The brand has many stand-alone stores in Delhi. These include stores in DLF Promenade, Vasant Kunj, Khan Market, Janakpuri and The Great India Place mall, Noida. If you visit the store, do check out headgear such as straw hats, and print banadana scarfs, and also readymade suits.",
+        "The French brand’s only store in the city, The Chanel boutique is located at The Imperial, Janpath. It opened its doors in March 2005 and has a collection of garments, watches, makeup, sunglasses, skin care and fragrances. Currently, the store is displaying its pre-fall collection by designer Karl Lagerfeld that has been named Paris-Bombay collection. Lagerfeld has dedicated the collection to Mumbai.",
+        "The French brand that set up shop in Delhi four years ago at the Oberoi Hotel, Lodhi Road, has everything luxe you’d desire. The brand specialises in leather, perfumes, accessories and ready-to-wear clothing range. Currently, their spring/summer collection is on at the store. While the ready-to-wear collection for women is priced at Rs 60, 000 onwards, men’s shirts are priced at Rs 27,000 onwards. Their famous bags start at Rs 1,00,000.",
+        "Indian kitsch caught the fancy of two French accessory designers — Iris Strill and Emeline Grasset. Their out-of-the-box thinking brought them together to open Purple Jungle at Hauz Khas Village. You can buy cushions, wallets, trunks, bags and mats here. Their products are bright and quirky, with funny messages inscribed or printed on them.",
+        "Two French women with a passion for fashion opened this vintage and second-hand garments store in Shahpur Jat. Catherine Barbier-Prakash and Lucie Salaun turned an old haveli into the store. The space has white-washed exposed brick walls, French windows and a vintage bathroom that has an old bathtub and framed mirrors as it also works as a changing room. The products worth checking out are the 70s style maxi dresses, leather sling bags and vintage jewellery.",
+        "French footwear designer Christian Louboutin opened his first store in Delhi in this year at DLF Emporio Mall, Vasant Kunj. Eclectic laser-etched green leather walls and textile furnishings greet you as you enter. Louboutin is inspired by Bollywood and has named his footwear as Bollywoody and Devidas. Do check out the embroidered shoes with Indian motifs, and strass embellishments.",
+        "This Frenc luxury fashion house has marked its presence in the city with its signature store at the DLF Emporio Mall, Vasant Kunj. Known for its couture collection and exquisite bags, the store houses a range of clothing and accessories for both men and women. The accessories collection includes bags, sunglasses, belts, wallets, cufflinks, watches, footwear, fragrances and more.",
+        "Chloe Le Bonnois visited India for the first time with her mother 14 years ago and instantly fell in love with the handicraft techniques and textiles produced in the country. It inspired her to create a kidswear brand ‘Nana-ki’, and she set up a manufacturing unit in India. She sold the garments through retailers in Europe. She finally moved to Delhi when she opened Lola’s World in Hauz Khas Village in 2005, followed by a store in Goa. Her shop sells kids garments, women garments, accessories and home furnishing. She has also opened a small cafe that serves coffee and fresh homemade juice.",
+        "“I want my customers to enjoy a completely different shopping experience, as you can find in some other cities in the world”, says Chloe.",
+        "Nestled in a cozy corner of the buzzing market in GK-II, this French bistro, owned by French chef Jerome Cousin, French restaurateur Laurent Guiraud and Delhi-based Rajiv Aneja, started in April this year. The place offers an interior dining space as well as a quaint terrace where the wind caresses your soul, whetting your appetite. The cheerful decor aptly matches the joie de vivre of France. Authentic French cuisine, sans any fusion or experimentation, is on offer. The menu is exhaustive and has many popular French dishes. The cafe is open from noon to 1am. Meal for two is priced at Rs 2,500 (plus taxes), exclusive of alcohol.",
+        "If you have a sweet tooth, then this patisserie, started by French national Laurent Charles Samandari in 2009, is the place to head to. Initially launched as a takeaway joint, the place has become quite popular among Delhiites. The Khan Market outlet offers a host of items ranging from cakes to croissants and multi-grain breads. Popular items include macaroons, French baguette sandwiches, and sour dough breads.",
+        "Two decades ago, when Roger Langbour came to Delhi from France as his last posting at the French Air Force, he pondered over the idea of raising ducks and supplying them to five-star hotels. Then, people thought he was crazy.",
+        "“Everyone said, No one will buy your ducks, you’re crazy,” says Langbour.",
+        "In his three-acre sprawling farm near Gurgaon-Jaipur highway, he raises thousands of peking ducks, turkeys, quails and pheasants. Today, most of the Capital’s big restos get their supply of poultry from Langbour’s organic farm.",
+        "“I opened the duck market in India,” he boasts, adding, “The demand is huge, especially from the French eateries. I have witnessed the transformation of tastes, and how people here have taken to a liking for French food.”",
+        "Langbour doesn’t retail his produce from the farm. But if you wish to visit the farm, you can do so. However, do make a prior appointment.",
+        "Housed in Meher Chand market in Lodhi Road, behind India Habitat Centre, this restaurant, started in March this year by Montreal-born chef Nira Singh, serves authentic French food. If you are looking for good croquettes, crepes and tarts, then you must head to this place as it has a long list of items in these categories. The subtle lights and a hanging nest perched in a mammoth branch of a tree at the ceiling, is bound to lift the mood. The restaurant chef recommends rataquettes, crepes, and tarts.",
+        "Cyril Feuillebois, a business management graduate from France, moved to Delhi to start KronoKare cosmetics, a company that sells skin and hair care products. Cyril says that treating the senses through aromatherapy has always been his passion and the foundation of his business. KronoKare supplies aromatherapy based toiletries to major luxury and five-star hotels and a few parlours and spas all over India. The range includes soaps, body lotions, sanitisers , shampoos and hair cleansers.",
+        "Hequet came to Delhi in 2008 to follow his passion for hairstyling. He settled down in Delhi to work for a French salon called Dessange at New Friends Colony. Currently, Rodolphe, 31, is working as a hairstylist at the Aman salon in Aman Hotel, Lodhi Road. He has settled down in the city comfortably and says he loves to live life the Indian way. The young hair expert will continue his stay here as he feels there is a lot to explore and discover in India.",
+        "The French photographer visited India on a number of occasions, but thought of settling down in Delhi about two and a half years back. Delphine has been hooked to photography since the age of 16 and recently compiled her pictures in a book titled, Open. It contains photographs taken on her trips to India, Nepal and Taiwan, and includes verses written by her. She has captured pictures from Rajasthan, Manali and Varanasi, among others."
+      ],
+      "fetch_status": "ok",
+      "rss_summary": "From authentic bakeries to quaint boutiques and fashion stores, the city offers you a heady mix of all things French. | India News",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "The Forgotten Communications Devices of the French Revolution - The MIT Press Reader",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNajRtVXV3a0JPSng3YW5yaU9XWmE1eEE5ZmUya1Rxdy0xMTRlSVh4bnVVZHRJVnpLTFc5Qy1kUFUzNTlxZFVfVDBBX09YMFhJbUoySU11Mm5xVFdsTEUySjBYQV9JVmFmRVhUNzk3QkR3OTQ0OWk0SENKMEJqdHJ2eFQyZ3lXME5sczVTeEp0Q2dYUjVxTEVYTVM3ZmI2Zw?oc=5",
+      "publisher": "The MIT Press Reader",
+      "published_at": "Mon, 11 May 2026 07:00:00 GMT",
+      "paragraphs": [
+        "The Forgotten Communications Devices of the French Revolution The MIT Press Reader"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMingFBVV95cUxNajRtVXV3a0JPSng3YW5yaU9XWmE1eEE5ZmUya1Rxdy0xMTRlSVh4bnVVZHRJVnpLTFc5Qy1kUFUzNTlxZFVfVDBBX09YMFhJbUoySU11Mm5xVFdsTEUySjBYQV9JVmFmRVhUNzk3QkR3OTQ0OWk0SENKMEJqdHJ2eFQyZ3lXME5sczVTeEp0Q2dYUjVxTEVYTVM3ZmI2Zw&q=EgRnd_JzGJnV4dcGIjBr2CP5ZwfbSUJQj1KNs9FXgI7NK2LObim9ct_mxnge6f8vyGs1lQEfoo1ZC48nFrYyAnJSWgFDYOKSl_i0o_SZJg)",
+      "rss_summary": "The Forgotten Communications Devices of the French Revolution The MIT Press Reader",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "French high school protests: 'The social contract since the Revolution is based on the rejection of inequality' - Le Monde.fr",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNUktXZGMxcDNaZnBNNC1EemFGUWFLcG43QVpURTBsTFRzWW9pQV93UkVNeWU1UThvbDQzNERscnZuUTFfZkVQcktTbThIR3RtSzNGYl9OZkZNODhoTzQwRXlLSGUyVVJjUy16cHNQYXVUVlVPWkI0eEpDNmJxRllCUDRueFJNb0Vobk5jekJzZ1llRl9DSHdyR205WEc0VkVGRFFOX280MlQtV0s4ZGxPQnA5X0FMYTZ1Vk9WZlJaWDVDWnBpMmtnVWRaZVJZT2lMTEVveWREeEV2eG5CcklXZmhPUmZYY0VWbG9ob3F0dEVxa1NJenpvR2dNNFkydF9QaXdrX0twNDU?oc=5",
+      "publisher": "Le Monde.fr",
+      "published_at": "Fri, 23 Oct 2026 07:00:00 GMT",
+      "paragraphs": [
+        "French high school protests: 'The social contract since the Revolution is based on the rejection of inequality' Le Monde.fr"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiiAJBVV95cUxNUktXZGMxcDNaZnBNNC1EemFGUWFLcG43QVpURTBsTFRzWW9pQV93UkVNeWU1UThvbDQzNERscnZuUTFfZkVQcktTbThIR3RtSzNGYl9OZkZNODhoTzQwRXlLSGUyVVJjUy16cHNQYXVUVlVPWkI0eEpDNmJxRllCUDRueFJNb0Vobk5jekJzZ1llRl9DSHdyR205WEc0VkVGRFFOX280MlQtV0s4ZGxPQnA5X0FMYTZ1Vk9WZlJaWDVDWnBpMmtnVWRaZVJZT2lMTEVveWREeEV2eG5CcklXZmhPUmZYY0VWbG9ob3F0dEVxa1NJenpvR2dNNFkydF9QaXdrX0twNDU&q=EgRnd_JzGJnV4dcGIjB3ERyGQ6lGrhxGBCF0Kn1X__dSiAOIvx-NCCNjjnuhTY277eX6mUdGw4AZYCuqx84yAnJSWgFDYNfbrL22uZDOygE)",
+      "rss_summary": "French high school protests: 'The social contract since the Revolution is based on the rejection of inequality' Le Monde.fr",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "Why is France Burning? - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XNUJhNkpCYTQ0RFIwTU8zMEx5SGx2c21XNmJwRGVrQU9OOFA0ZUxEcDhEVEQtS3J2WHFNRWJxeW1uLXBxUExPWTNUMTZ4Uzc1OHY3N0p2emN0ckVIVU5LS2plcldsOHM2aVM0S0M0aDBlNFpDQ0E?oc=5",
+      "publisher": "Time Magazine",
+      "published_at": "Fri, 16 Oct 2026 07:00:00 GMT",
+      "paragraphs": [],
+      "fetch_status": "fetch_error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMidkFVX3lxTE5XNUJhNkpCYTQ0RFIwTU8zMEx5SGx2c21XNmJwRGVrQU9OOFA0ZUxEcDhEVEQtS3J2WHFNRWJxeW1uLXBxUExPWTNUMTZ4Uzc1OHY3N0p2emN0ckVIVU5LS2plcldsOHM2aVM0S0M0aDBlNFpDQ0E&q=EgRnd_JzGJnV4dcGIjBxaOW-ddlipVn5wzeb87hq37mpQJSfnCggzv3_RnMC_G4BTglyUdHsGxP9d2BqzvYyAnJSWgFDYNuWr5jQ1574Tw",
+      "rss_summary": "Why is France Burning? Time Magazine",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "Transcript: The French Revolution’s disastrous money experiment — Part 2 - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZkdCdkd1Yms2MWE3dDkydEhMOVJ2NDNRWS1YQm5PRm4zbnpVU3Zvemg5Y0JENU5vRHdXNVpTSnhUMUwxYjhtR1cxbTdQaUItTW51VnZDLUlvdjl1WHM1bkNub2FMTXRTUHBMMnZPeEVOOWs3c0xrbWpCLXZqN2s1SGFjUjA?oc=5",
+      "publisher": "Financial Times",
+      "published_at": "Tue, 20 Oct 2026 07:00:00 GMT",
+      "paragraphs": [
+        "Transcript: The French Revolution’s disastrous money experiment — Part 2 Financial Times"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMihAFBVV95cUxOZkdCdkd1Yms2MWE3dDkydEhMOVJ2NDNRWS1YQm5PRm4zbnpVU3Zvemg5Y0JENU5vRHdXNVpTSnhUMUwxYjhtR1cxbTdQaUItTW51VnZDLUlvdjl1WHM1bkNub2FMTXRTUHBMMnZPeEVOOWs3c0xrbWpCLXZqN2s1SGFjUjA&q=EgRnd_JzGJrV4dcGIjDoCWBYw4HouQjdt05dYad1uVWoUurHOAV131gLFV1ot2-nwiB8lzxUh8iEaGbcNzsyAnJSWgFDYIOt5Nni5InW4gE)",
+      "rss_summary": "Transcript: The French Revolution’s disastrous money experiment — Part 2 Financial Times",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "Transcript: Why the French Revolution was a financial revolution — Part 1 - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQal9ZTTdOV2xMOUJfeVd1Zzl3ZDJaTlRkTWhFSlZoSWFVUE1LMW5vNHVEbFkxTTYzUmRzOXdGRFM3MHhxUl93bTVzbzRKSW5VN3Z3aHExemlhSWtpUDh4a1F2ZndjcGxIOTZCQmFTd0hfZUZkY29FWjZpckZZZHFrSVdaekQ?oc=5",
+      "publisher": "Financial Times",
+      "published_at": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "paragraphs": [
+        "Transcript: Why the French Revolution was a financial revolution — Part 1 Financial Times"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMihAFBVV95cUxQal9ZTTdOV2xMOUJfeVd1Zzl3ZDJaTlRkTWhFSlZoSWFVUE1LMW5vNHVEbFkxTTYzUmRzOXdGRFM3MHhxUl93bTVzbzRKSW5VN3Z3aHExemlhSWtpUDh4a1F2ZndjcGxIOTZCQmFTd0hfZUZkY29FWjZpckZZZHFrSVdaekQ&q=EgRnd_JzGJrV4dcGIjBBK6qyMgFO_b-Ev2RMwmMmBAI0rSo2kx6aHE6TqDs5dbmSCC90M48q3fdT0H1lDCsyAnJSWgFDYM66w5mRqoa91QE)",
+      "rss_summary": "Transcript: Why the French Revolution was a financial revolution — Part 1 Financial Times",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "What the French Revolution Can Teach Us About Inflation - The University of Texas at El Paso - UTEP",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRnFCb0xNZWtsSUtKTnZ2aG13UHgxWFE1cGRrQUZkNlljbENSdjRLRmhMeHczNVRQYlNQM2taaVcwV3h5anNqYUZYckh5THl2YXJaTzZfOWNrX2prejYzRmJWWGtxaHFmOWI1M0M1a0lnVEgzQkhKMmF1N1VJNXlGak9XTjdzYmc4bk1NeEIwQ0pZQ1RpQWZKZXYyYw?oc=5",
+      "publisher": "The University of Texas at El Paso - UTEP",
+      "published_at": "Mon, 18 Sep 2023 07:00:00 GMT",
+      "paragraphs": [
+        "What the French Revolution Can Teach Us About Inflation The University of Texas at El Paso - UTEP"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMimwFBVV95cUxNRnFCb0xNZWtsSUtKTnZ2aG13UHgxWFE1cGRrQUZkNlljbENSdjRLRmhMeHczNVRQYlNQM2taaVcwV3h5anNqYUZYckh5THl2YXJaTzZfOWNrX2prejYzRmJWWGtxaHFmOWI1M0M1a0lnVEgzQkhKMmF1N1VJNXlGak9XTjdzYmc4bk1NeEIwQ0pZQ1RpQWZKZXYyYw&q=EgRnd_JzGJrV4dcGIjAlwx1Gm6tspEaDV8BKwpOM8PsmkRzinlMp42Ul_g2zCjV3rmicyGPHktBUA8mMydQyAnJSWgFDYMOyl-6em5zQkQE)",
+      "rss_summary": "What the French Revolution Can Teach Us About Inflation The University of Texas at El Paso - UTEP",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "The French Revolution executed royals and nobles, yes – but most people killed were commoners - The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTNONDJBZTl3RjdVZWp3cXVuMXBsNHFGNzNqVVhzUk44VGczT21FUVd2aGx6ZWpRTVkzbThhaG9RVktGRDFuSTc4TE13ZlVhcklTeU5yM2wtREZCUW1SR1U4S21oU3c5dGdpVHA5NkRzYUJ5bW4yQkdpVVFNYk5PS24xNk9vOVZob1U3cGRRZmRrNk9WclNFcE16X2Z4RE9pempySE5OX1NvdnBOREZkam8zT0FscW1xSDdpYk5EalhYcHM?oc=5",
+      "publisher": "The Conversation",
+      "published_at": "Wed, 12 Jul 2023 07:00:00 GMT",
+      "paragraphs": [
+        "The French Revolution executed royals and nobles, yes – but most people killed were commoners The Conversation"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiwwFBVV95cUxPYTNONDJBZTl3RjdVZWp3cXVuMXBsNHFGNzNqVVhzUk44VGczT21FUVd2aGx6ZWpRTVkzbThhaG9RVktGRDFuSTc4TE13ZlVhcklTeU5yM2wtREZCUW1SR1U4S21oU3c5dGdpVHA5NkRzYUJ5bW4yQkdpVVFNYk5PS24xNk9vOVZob1U3cGRRZmRrNk9WclNFcE16X2Z4RE9pempySE5OX1NvdnBOREZkam8zT0FscW1xSDdpYk5EalhYcHM&q=EgRnd_JzGJvV4dcGIjDrWruPDTcGo2SThch9ZRRR6J_HCWYAePVA7v9kpXPaCaCoz_w1WF4G7WC2AqWBsREyAnJSWgFDYPqYzbXvpZunigE)",
+      "rss_summary": "The French Revolution executed royals and nobles, yes – but most people killed were commoners The Conversation",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "Climate Chaos Helped Spark the French Revolution—and Holds a Dire Warning for Today - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xUkR1QWdQX0tIWmM2Z1ROUXF2cElKeDZ0NmhoUE5paTZoUUZFX2xGbl96X2wyckFpQVBNaUtIV2dsejQ0a0w5aldJVjlMZXFPWl9Jd2lnRVl0em45VTEzdFFwQ25zcFJ1Z2hz?oc=5",
+      "publisher": "Time Magazine",
+      "published_at": "Wed, 20 Oct 2021 07:00:00 GMT",
+      "paragraphs": [
+        "Climate Chaos Helped Spark the French Revolution—and Holds a Dire Warning for Today Time Magazine"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMia0FVX3lxTE9xUkR1QWdQX0tIWmM2Z1ROUXF2cElKeDZ0NmhoUE5paTZoUUZFX2xGbl96X2wyckFpQVBNaUtIV2dsejQ0a0w5aldJVjlMZXFPWl9Jd2lnRVl0em45VTEzdFFwQ25zcFJ1Z2hz&q=EgRnd_JzGJvV4dcGIjCdwCqWdcdKOIQum2Vgtssq9M_brrTPONh7ISIiD_svwa9_kSz_3FYHyiR3NaWSZzQyAnJSWgFDYOn4iKqqrpDD9AE)",
+      "rss_summary": "Climate Chaos Helped Spark the French Revolution—and Holds a Dire Warning for Today Time Magazine",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "‘The French Revolution’ Review: Bastille Day and After - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc2xOSWktdERNdlNsY0txMEhsNlJHcEthcHRPUnRxSnp1WWVzUnBZVHVyZVA1SzBPZkVaSTc1SVlZVGpqSTNIMWE4OXF5UWJiMlhLOU1yQVJmSUNQWVk0cXVFc3h3Y2VicVNMdzVXYTRjeGhIbldOTGpJMVdUZmcyb1JSUngyMWFCU1Y1OVlmZkZJTG5tdFkzaUJ0ZklLaE9E?oc=5",
+      "publisher": "WSJ",
+      "published_at": "Fri, 31 Oct 2025 07:00:00 GMT",
+      "paragraphs": [
+        "‘The French Revolution’ Review: Bastille Day and After WSJ"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMioAFBVV95cUxOc2xOSWktdERNdlNsY0txMEhsNlJHcEthcHRPUnRxSnp1WWVzUnBZVHVyZVA1SzBPZkVaSTc1SVlZVGpqSTNIMWE4OXF5UWJiMlhLOU1yQVJmSUNQWVk0cXVFc3h3Y2VicVNMdzVXYTRjeGhIbldOTGpJMVdUZmcyb1JSUngyMWFCU1Y1OVlmZkZJTG5tdFkzaUJ0ZklLaE9E&q=EgRnd_JzGJvV4dcGIjCygWQ5maN7WI5pF5kk5dTEKXxrQt1QEvk51aLv6J8w7XVPLk5J1eXMbbI9KutK2-EyAnJSWgFDYLfd0fWe_afojgE)",
+      "rss_summary": "‘The French Revolution’ Review: Bastille Day and After WSJ",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "Rewriting the French Revolution - UCI School of Humanities",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IVXNvQW93U1VKTXNYRTRiSnpLSTB3UUVwSGJscXJibGFXeTVIUUFTSEZjR014Q0lRRTN5R2dndzBjR0VZTHhjeGZuMzdtUXAyRGRUUFB1b2hZLU4wZldtTzNNaVh0UVFrSEQxcy14V3A?oc=5",
+      "publisher": "UCI School of Humanities",
+      "published_at": "Wed, 11 Mar 2020 07:00:00 GMT",
+      "paragraphs": [
+        "Rewriting the French Revolution UCI School of Humanities"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMicEFVX3lxTE9IVXNvQW93U1VKTXNYRTRiSnpLSTB3UUVwSGJscXJibGFXeTVIUUFTSEZjR014Q0lRRTN5R2dndzBjR0VZTHhjeGZuMzdtUXAyRGRUUFB1b2hZLU4wZldtTzNNaVh0UVFrSEQxcy14V3A&q=EgRnd_JzGJzV4dcGIjCVL6FTjQLuKngy3k_0lZNF69S4O0KTKmyEYOJMN9htcoK5ehwM-Lv3vQVHc_e9hvwyAnJSWgFDYMif262Bq8ufcw)",
+      "rss_summary": "Rewriting the French Revolution UCI School of Humanities",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "A New World Begins: The History of the French Revolution: A Q&A with NEH Public Scholar Jeremy D. Popkin - National Endowment for the Humanities (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQUF3cTNnZ2VzWE1ndkF6aFRYZHBueHdpR3FwTWJLdllnRUJKMWg3Z3pOalc2QzZYOWNlLWlFQjk4TlR3MzNzZk1LVUx4ZXBSMDEwV3dweHVrRzBsQzl6Q19oUm51cXlrRDB3bWlvU2ZjQ25vcWNhZUU4c2xEcDhmTkNRM0hYM2hjZzRKNzBFODFTVGNrMU84VDl0UDktYjZMWThQYkx3VjM?oc=5",
+      "publisher": "National Endowment for the Humanities (.gov)",
+      "published_at": "Thu, 08 Jul 2021 07:00:00 GMT",
+      "paragraphs": [
+        "A New World Begins: The History of the French Revolution: A Q&A with NEH Public Scholar Jeremy D. Popkin National Endowment for the Humanities (.gov)"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiqAFBVV95cUxNQUF3cTNnZ2VzWE1ndkF6aFRYZHBueHdpR3FwTWJLdllnRUJKMWg3Z3pOalc2QzZYOWNlLWlFQjk4TlR3MzNzZk1LVUx4ZXBSMDEwV3dweHVrRzBsQzl6Q19oUm51cXlrRDB3bWlvU2ZjQ25vcWNhZUU4c2xEcDhmTkNRM0hYM2hjZzRKNzBFODFTVGNrMU84VDl0UDktYjZMWThQYkx3VjM&q=EgRnd_JzGJzV4dcGIjCt-BBcSmrPlhiLVlBDNDrs10q7gk5TvTp9hGjeQo4p28xsRNDhv9jDugPZSJEAzR8yAnJSWgFDYOnw_bWotbL_5QE)",
+      "rss_summary": "A New World Begins: The History of the French Revolution: A Q&A with NEH Public Scholar Jeremy D. Popkin National Endowment for the Humanities (.gov)",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "Panic-Inducing Rumors Went Viral Ahead of the French Revolution - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc3JJTFVTUmhINXVEX1J4S1R4aWJDTVlDOWVoLVRTQUd6Q1ltTEc5THBOUG1INnlzS29FMWVoMEkyRUxSRXFPWHFLZjlFNUh3aWZZbW5uN2p0TGtGbXpEbUJ5QXQ2TjREaU8yTkFPNlhubVdVY2R2U1JsRDhKOXRxTTFCbUxibTlDR1E?oc=5",
+      "publisher": "WSJ",
+      "published_at": "Fri, 26 Sep 2025 07:00:00 GMT",
+      "paragraphs": [
+        "Panic-Inducing Rumors Went Viral Ahead of the French Revolution WSJ"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiigFBVV95cUxOc3JJTFVTUmhINXVEX1J4S1R4aWJDTVlDOWVoLVRTQUd6Q1ltTEc5THBOUG1INnlzS29FMWVoMEkyRUxSRXFPWHFLZjlFNUh3aWZZbW5uN2p0TGtGbXpEbUJ5QXQ2TjREaU8yTkFPNlhubVdVY2R2U1JsRDhKOXRxTTFCbUxibTlDR1E&q=EgRnd_JzGJzV4dcGIjBnzH_UYHZ2gZuvwdw8jsdMI44aLo1tlWLfci6hn7IzYWnUc-wIyNjGnFtu5Su9m98yAnJSWgFDYNazhdmtl42Y-wE)",
+      "rss_summary": "Panic-Inducing Rumors Went Viral Ahead of the French Revolution WSJ",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "French Revolution Pamphlets, 1761-1807 - Brandeis University",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOGFGR0dWTHU3eTNvdTFLSmM2Q1dReGRWSFo4TmRvVFZDVmRmd29PWFpuVjZKRnJjUlMtcDBHSUs4RXN4Rkd3ZjhnVWtMQV9uTi1xOXk0YkFxUktVS0dLclQtRlpZWTBObWlZLTU3ajNkZ1ZnNjNyMzd5V00xZXltZTUwWkc4OHhBbmFPU2tNZDROMmZYZEFuUm0xWHI4TlR6dHRj?oc=5",
+      "publisher": "Brandeis University",
+      "published_at": "Tue, 29 Nov 2011 08:00:00 GMT",
+      "paragraphs": [
+        "French Revolution Pamphlets, 1761-1807 Brandeis University"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiowFBVV95cUxQOGFGR0dWTHU3eTNvdTFLSmM2Q1dReGRWSFo4TmRvVFZDVmRmd29PWFpuVjZKRnJjUlMtcDBHSUs4RXN4Rkd3ZjhnVWtMQV9uTi1xOXk0YkFxUktVS0dLclQtRlpZWTBObWlZLTU3ajNkZ1ZnNjNyMzd5V00xZXltZTUwWkc4OHhBbmFPU2tNZDROMmZYZEFuUm0xWHI4TlR6dHRj&q=EgRnd_JzGJzV4dcGIjDusdNH2vuTZQFvdGQVYow9bbn9A6r4s8BrL727inxNOMb512JDhKD2nOS_j07kB4YyAnJSWgFDYMS49Nbjzoe-EA)",
+      "rss_summary": "French Revolution Pamphlets, 1761-1807 Brandeis University",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "How an Icelandic volcano helped spark the French Revolution - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWmtXZjI1bmFTdHd5SWhwTS1uUllWcnhaWmRnSlQ4b1Z0SDNmYzhacHEwaUNFenJFVFBwMFV2TTNFR0JubnppTjZfNkVFYl9YLXMzM1ZSREhzTEFaTXJSUTVGQk4yXy1mWFhyMzZDaDBsTDA3MkxWank0LVFuamRfMk5PN3dfNXpzTXdzQy11dkk?oc=5",
+      "publisher": "The Guardian",
+      "published_at": "Thu, 15 Apr 2010 07:00:00 GMT",
+      "paragraphs": [
+        "How an Icelandic volcano helped spark the French Revolution The Guardian"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMikAFBVV95cUxQWmtXZjI1bmFTdHd5SWhwTS1uUllWcnhaWmRnSlQ4b1Z0SDNmYzhacHEwaUNFenJFVFBwMFV2TTNFR0JubnppTjZfNkVFYl9YLXMzM1ZSREhzTEFaTXJSUTVGQk4yXy1mWFhyMzZDaDBsTDA3MkxWank0LVFuamRfMk5PN3dfNXpzTXdzQy11dkk&q=EgRnd_JzGJ3V4dcGIjCFiubrKgmYKxvoKlMv1JWTFIh2raFZ5w_3dRrW_b1rXyj_5XIijeP_q2alTuBNzfgyAnJSWgFDYJfHnqPXhY7k4QE)",
+      "rss_summary": "How an Icelandic volcano helped spark the French Revolution The Guardian",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "Britain and the French Revolution - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTkJVa2pnaXRnbFprc2xEMy1XVnNESTYzTXltbGpSOHdtRnRKNVhaQ0RncjNidERBOENBYm5Sd1FZNlJ4QnR6SVg5eUs2OWlzay1aajRuSkFjN3k4c0JWZHdScWxLYy1tcW9FbVV6cUZGSHRWWTRkWDVZUnhvcTNQc1BoOW4zQmhP?oc=5",
+      "publisher": "BBC",
+      "published_at": "Thu, 17 Feb 2011 08:00:00 GMT",
+      "paragraphs": [],
+      "fetch_status": "fetch_error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiiAFBVV95cUxQTkJVa2pnaXRnbFprc2xEMy1XVnNESTYzTXltbGpSOHdtRnRKNVhaQ0RncjNidERBOENBYm5Sd1FZNlJ4QnR6SVg5eUs2OWlzay1aajRuSkFjN3k4c0JWZHdScWxLYy1tcW9FbVV6cUZGSHRWWTRkWDVZUnhvcTNQc1BoOW4zQmhP&q=EgRnd_JzGJ3V4dcGIjAIUQthW8_cJQu6Cob6A2qkbUFLEE0k2Pcx3hENrkcmadMs8rSvN_a3TsC8X3L70GsyAnJSWgFDYL2zpY-uzq-ROw",
+      "rss_summary": "Britain and the French Revolution BBC",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "Debunking the myths of the French Revolution - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WOVlXLU1uTTRHLUpyaW1sTTVjNnYzQnR4aTc3N2lKaklRaktKSUo1SVhMZzVjYzBJb0hlOFg4c3p0Q3ZXZkszSVBSaV91aFRjaVZYalJIR0gtWkU?oc=5",
+      "publisher": "BBC",
+      "published_at": "Fri, 20 Aug 2021 13:25:06 GMT",
+      "paragraphs": [
+        "Debunking the myths of the French Revolution BBC"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiW0FVX3lxTE9WOVlXLU1uTTRHLUpyaW1sTTVjNnYzQnR4aTc3N2lKaklRaktKSUo1SVhMZzVjYzBJb0hlOFg4c3p0Q3ZXZkszSVBSaV91aFRjaVZYalJIR0gtWkU&q=EgRnd_JzGJ3V4dcGIjBGPn1iyPeb9LIBnMVtHhemayU8-L6fgoLwtzzv3hzoleMMI_fqvoeXxpzfJ-P4sxUyAnJSWgFDYN71g_bBr97ftwE)",
+      "rss_summary": "Debunking the myths of the French Revolution BBC",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "^ \"Illustrations from Révolutions de Paris\" . Department of History . 24 January 2014. Archived from the original on 29 January 2021 . Retrieved 25 January 2021 .",
+      "url": "https://history.dartmouth.edu/research/student-research/illustrations-revolutions-de-paris",
+      "publisher": "history.dartmouth.edu",
+      "published_at": "",
+      "paragraphs": [],
+      "fetch_status": "fetch_error: 404 Client Error: Not Found for url: https://history.dartmouth.edu/research/student-research/illustrations-revolutions-de-paris",
+      "rss_summary": "",
+      "source_kind": "Wikipedia reference",
+      "reference_page": "https://en.wikipedia.org/wiki/French_Revolution"
+    }
+  ],
+  "source_details": [
+    {
+      "title": "Daily Quiz: On French revolution",
+      "publisher": "The Hindu",
+      "url": "https://www.thehindu.com/news/international/daily-quiz-on-french-revolution/article71684798.ece",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "2026-11-10T17:11:00+05:30",
+      "fetch_status": "ok",
+      "key_passages": [
+        "Joseph-Ignace Guillotin was the French physician and revolutionary politician whose name became an eponym for a device associated with executions during the French Revolution.",
+        "If you are already a registered user of The Hindu and logged in, you may continue to engage with our articles."
+      ]
+    },
+    {
+      "title": "UPSC Mains Answer Practice — GS 1: Kalighat paintings and the French Revolution (Week 179)",
+      "publisher": "The Indian Express",
+      "url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-mains-answer-practice-gs-1-week-179-10951820/",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "2026-11-05T16:56:24+05:30",
+      "fetch_status": "ok",
+      "key_passages": [
+        "You may incorporate some of the following points in your answer:",
+        "(Sources: When the French Revolution reached India: The story of Tipu Sultan, the Marathas and the British , How the French Revolution inspired the Indian Constituent Assembly , When Napoleon wanted to conquer India )",
+        "QUESTION 2: The French Revolution had a significant influence on political developments beyond Europe, including in India.",
+        "The French Revolution had a significant influence on political developments beyond Europe, including in India.",
+        "The French Revolution has enduring relevance to the contemporary world."
+      ]
+    },
+    {
+      "title": "The French Revolution | India News",
+      "publisher": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/india/the-french-revolution/story-0rGAFI0Au75miY3UyBlaoJ.html",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "2012-06-28T17:25:44+05:30",
+      "fetch_status": "ok",
+      "key_passages": [
+        "Housed in Meher Chand market in Lodhi Road, behind India Habitat Centre, this restaurant, started in March this year by Montreal-born chef Nira Singh, serves authentic French food.",
+        "If you have a sweet tooth, then this patisserie, started by French national Laurent Charles Samandari in 2009, is the place to head to.",
+        "Nestled in a cozy corner of the buzzing market in GK-II, this French bistro, owned by French chef Jerome Cousin, French restaurateur Laurent Guiraud and Delhi-based Rajiv Aneja, started in April this year.",
+        "Delhi’s French connection is blooming like never before.",
+        "Hequet came to Delhi in 2008 to follow his passion for hairstyling."
+      ]
+    },
+    {
+      "title": "The Forgotten Communications Devices of the French Revolution - The MIT Press Reader",
+      "publisher": "The MIT Press Reader",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNajRtVXV3a0JPSng3YW5yaU9XWmE1eEE5ZmUya1Rxdy0xMTRlSVh4bnVVZHRJVnpLTFc5Qy1kUFUzNTlxZFVfVDBBX09YMFhJbUoySU11Mm5xVFdsTEUySjBYQV9JVmFmRVhUNzk3QkR3OTQ0OWk0SENKMEJqdHJ2eFQyZ3lXME5sczVTeEp0Q2dYUjVxTEVYTVM3ZmI2Zw?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Mon, 11 May 2026 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMingFBVV95cUxNajRtVXV3a0JPSng3YW5yaU9XWmE1eEE5ZmUya1Rxdy0xMTRlSVh4bnVVZHRJVnpLTFc5Qy1kUFUzNTlxZFVfVDBBX09YMFhJbUoySU11Mm5xVFdsTEUySjBYQV9JVmFmRVhUNzk3QkR3OTQ0OWk0SENKMEJqdHJ2eFQyZ3lXME5sczVTeEp0Q2dYUjVxTEVYTVM3ZmI2Zw&q=EgRnd_JzGJnV4dcGIjBr2CP5ZwfbSUJQj1KNs9FXgI7NK2LObim9ct_mxnge6f8vyGs1lQEfoo1ZC48nFrYyAnJSWgFDYOKSl_i0o_SZJg)",
+      "key_passages": [
+        "The Forgotten Communications Devices of the French Revolution The MIT Press Reader"
+      ]
+    },
+    {
+      "title": "French high school protests: 'The social contract since the Revolution is based on the rejection of inequality' - Le Monde.fr",
+      "publisher": "Le Monde.fr",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNUktXZGMxcDNaZnBNNC1EemFGUWFLcG43QVpURTBsTFRzWW9pQV93UkVNeWU1UThvbDQzNERscnZuUTFfZkVQcktTbThIR3RtSzNGYl9OZkZNODhoTzQwRXlLSGUyVVJjUy16cHNQYXVUVlVPWkI0eEpDNmJxRllCUDRueFJNb0Vobk5jekJzZ1llRl9DSHdyR205WEc0VkVGRFFOX280MlQtV0s4ZGxPQnA5X0FMYTZ1Vk9WZlJaWDVDWnBpMmtnVWRaZVJZT2lMTEVveWREeEV2eG5CcklXZmhPUmZYY0VWbG9ob3F0dEVxa1NJenpvR2dNNFkydF9QaXdrX0twNDU?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Fri, 23 Oct 2026 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiiAJBVV95cUxNUktXZGMxcDNaZnBNNC1EemFGUWFLcG43QVpURTBsTFRzWW9pQV93UkVNeWU1UThvbDQzNERscnZuUTFfZkVQcktTbThIR3RtSzNGYl9OZkZNODhoTzQwRXlLSGUyVVJjUy16cHNQYXVUVlVPWkI0eEpDNmJxRllCUDRueFJNb0Vobk5jekJzZ1llRl9DSHdyR205WEc0VkVGRFFOX280MlQtV0s4ZGxPQnA5X0FMYTZ1Vk9WZlJaWDVDWnBpMmtnVWRaZVJZT2lMTEVveWREeEV2eG5CcklXZmhPUmZYY0VWbG9ob3F0dEVxa1NJenpvR2dNNFkydF9QaXdrX0twNDU&q=EgRnd_JzGJnV4dcGIjB3ERyGQ6lGrhxGBCF0Kn1X__dSiAOIvx-NCCNjjnuhTY277eX6mUdGw4AZYCuqx84yAnJSWgFDYNfbrL22uZDOygE)",
+      "key_passages": [
+        "French high school protests: 'The social contract since the Revolution is based on the rejection of inequality' Le Monde.fr"
+      ]
+    },
+    {
+      "title": "Why is France Burning? - Time Magazine",
+      "publisher": "Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XNUJhNkpCYTQ0RFIwTU8zMEx5SGx2c21XNmJwRGVrQU9OOFA0ZUxEcDhEVEQtS3J2WHFNRWJxeW1uLXBxUExPWTNUMTZ4Uzc1OHY3N0p2emN0ckVIVU5LS2plcldsOHM2aVM0S0M0aDBlNFpDQ0E?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Fri, 16 Oct 2026 07:00:00 GMT",
+      "fetch_status": "fetch_error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMidkFVX3lxTE5XNUJhNkpCYTQ0RFIwTU8zMEx5SGx2c21XNmJwRGVrQU9OOFA0ZUxEcDhEVEQtS3J2WHFNRWJxeW1uLXBxUExPWTNUMTZ4Uzc1OHY3N0p2emN0ckVIVU5LS2plcldsOHM2aVM0S0M0aDBlNFpDQ0E&q=EgRnd_JzGJnV4dcGIjBxaOW-ddlipVn5wzeb87hq37mpQJSfnCggzv3_RnMC_G4BTglyUdHsGxP9d2BqzvYyAnJSWgFDYNuWr5jQ1574Tw",
+      "key_passages": []
+    },
+    {
+      "title": "Transcript: The French Revolution’s disastrous money experiment — Part 2 - Financial Times",
+      "publisher": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZkdCdkd1Yms2MWE3dDkydEhMOVJ2NDNRWS1YQm5PRm4zbnpVU3Zvemg5Y0JENU5vRHdXNVpTSnhUMUwxYjhtR1cxbTdQaUItTW51VnZDLUlvdjl1WHM1bkNub2FMTXRTUHBMMnZPeEVOOWs3c0xrbWpCLXZqN2s1SGFjUjA?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Tue, 20 Oct 2026 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMihAFBVV95cUxOZkdCdkd1Yms2MWE3dDkydEhMOVJ2NDNRWS1YQm5PRm4zbnpVU3Zvemg5Y0JENU5vRHdXNVpTSnhUMUwxYjhtR1cxbTdQaUItTW51VnZDLUlvdjl1WHM1bkNub2FMTXRTUHBMMnZPeEVOOWs3c0xrbWpCLXZqN2s1SGFjUjA&q=EgRnd_JzGJrV4dcGIjDoCWBYw4HouQjdt05dYad1uVWoUurHOAV131gLFV1ot2-nwiB8lzxUh8iEaGbcNzsyAnJSWgFDYIOt5Nni5InW4gE)",
+      "key_passages": [
+        "Transcript: The French Revolution’s disastrous money experiment — Part 2 Financial Times"
+      ]
+    },
+    {
+      "title": "Transcript: Why the French Revolution was a financial revolution — Part 1 - Financial Times",
+      "publisher": "Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQal9ZTTdOV2xMOUJfeVd1Zzl3ZDJaTlRkTWhFSlZoSWFVUE1LMW5vNHVEbFkxTTYzUmRzOXdGRFM3MHhxUl93bTVzbzRKSW5VN3Z3aHExemlhSWtpUDh4a1F2ZndjcGxIOTZCQmFTd0hfZUZkY29FWjZpckZZZHFrSVdaekQ?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMihAFBVV95cUxQal9ZTTdOV2xMOUJfeVd1Zzl3ZDJaTlRkTWhFSlZoSWFVUE1LMW5vNHVEbFkxTTYzUmRzOXdGRFM3MHhxUl93bTVzbzRKSW5VN3Z3aHExemlhSWtpUDh4a1F2ZndjcGxIOTZCQmFTd0hfZUZkY29FWjZpckZZZHFrSVdaekQ&q=EgRnd_JzGJrV4dcGIjBBK6qyMgFO_b-Ev2RMwmMmBAI0rSo2kx6aHE6TqDs5dbmSCC90M48q3fdT0H1lDCsyAnJSWgFDYM66w5mRqoa91QE)",
+      "key_passages": [
+        "Transcript: Why the French Revolution was a financial revolution — Part 1 Financial Times"
+      ]
+    },
+    {
+      "title": "What the French Revolution Can Teach Us About Inflation - The University of Texas at El Paso - UTEP",
+      "publisher": "The University of Texas at El Paso - UTEP",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRnFCb0xNZWtsSUtKTnZ2aG13UHgxWFE1cGRrQUZkNlljbENSdjRLRmhMeHczNVRQYlNQM2taaVcwV3h5anNqYUZYckh5THl2YXJaTzZfOWNrX2prejYzRmJWWGtxaHFmOWI1M0M1a0lnVEgzQkhKMmF1N1VJNXlGak9XTjdzYmc4bk1NeEIwQ0pZQ1RpQWZKZXYyYw?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Mon, 18 Sep 2023 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMimwFBVV95cUxNRnFCb0xNZWtsSUtKTnZ2aG13UHgxWFE1cGRrQUZkNlljbENSdjRLRmhMeHczNVRQYlNQM2taaVcwV3h5anNqYUZYckh5THl2YXJaTzZfOWNrX2prejYzRmJWWGtxaHFmOWI1M0M1a0lnVEgzQkhKMmF1N1VJNXlGak9XTjdzYmc4bk1NeEIwQ0pZQ1RpQWZKZXYyYw&q=EgRnd_JzGJrV4dcGIjAlwx1Gm6tspEaDV8BKwpOM8PsmkRzinlMp42Ul_g2zCjV3rmicyGPHktBUA8mMydQyAnJSWgFDYMOyl-6em5zQkQE)",
+      "key_passages": [
+        "What the French Revolution Can Teach Us About Inflation The University of Texas at El Paso - UTEP"
+      ]
+    },
+    {
+      "title": "The French Revolution executed royals and nobles, yes – but most people killed were commoners - The Conversation",
+      "publisher": "The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYTNONDJBZTl3RjdVZWp3cXVuMXBsNHFGNzNqVVhzUk44VGczT21FUVd2aGx6ZWpRTVkzbThhaG9RVktGRDFuSTc4TE13ZlVhcklTeU5yM2wtREZCUW1SR1U4S21oU3c5dGdpVHA5NkRzYUJ5bW4yQkdpVVFNYk5PS24xNk9vOVZob1U3cGRRZmRrNk9WclNFcE16X2Z4RE9pempySE5OX1NvdnBOREZkam8zT0FscW1xSDdpYk5EalhYcHM?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Wed, 12 Jul 2023 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiwwFBVV95cUxPYTNONDJBZTl3RjdVZWp3cXVuMXBsNHFGNzNqVVhzUk44VGczT21FUVd2aGx6ZWpRTVkzbThhaG9RVktGRDFuSTc4TE13ZlVhcklTeU5yM2wtREZCUW1SR1U4S21oU3c5dGdpVHA5NkRzYUJ5bW4yQkdpVVFNYk5PS24xNk9vOVZob1U3cGRRZmRrNk9WclNFcE16X2Z4RE9pempySE5OX1NvdnBOREZkam8zT0FscW1xSDdpYk5EalhYcHM&q=EgRnd_JzGJvV4dcGIjDrWruPDTcGo2SThch9ZRRR6J_HCWYAePVA7v9kpXPaCaCoz_w1WF4G7WC2AqWBsREyAnJSWgFDYPqYzbXvpZunigE)",
+      "key_passages": [
+        "The French Revolution executed royals and nobles, yes – but most people killed were commoners The Conversation"
+      ]
+    },
+    {
+      "title": "Climate Chaos Helped Spark the French Revolution—and Holds a Dire Warning for Today - Time Magazine",
+      "publisher": "Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xUkR1QWdQX0tIWmM2Z1ROUXF2cElKeDZ0NmhoUE5paTZoUUZFX2xGbl96X2wyckFpQVBNaUtIV2dsejQ0a0w5aldJVjlMZXFPWl9Jd2lnRVl0em45VTEzdFFwQ25zcFJ1Z2hz?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Wed, 20 Oct 2021 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMia0FVX3lxTE9xUkR1QWdQX0tIWmM2Z1ROUXF2cElKeDZ0NmhoUE5paTZoUUZFX2xGbl96X2wyckFpQVBNaUtIV2dsejQ0a0w5aldJVjlMZXFPWl9Jd2lnRVl0em45VTEzdFFwQ25zcFJ1Z2hz&q=EgRnd_JzGJvV4dcGIjCdwCqWdcdKOIQum2Vgtssq9M_brrTPONh7ISIiD_svwa9_kSz_3FYHyiR3NaWSZzQyAnJSWgFDYOn4iKqqrpDD9AE)",
+      "key_passages": [
+        "Climate Chaos Helped Spark the French Revolution—and Holds a Dire Warning for Today Time Magazine"
+      ]
+    },
+    {
+      "title": "‘The French Revolution’ Review: Bastille Day and After - WSJ",
+      "publisher": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc2xOSWktdERNdlNsY0txMEhsNlJHcEthcHRPUnRxSnp1WWVzUnBZVHVyZVA1SzBPZkVaSTc1SVlZVGpqSTNIMWE4OXF5UWJiMlhLOU1yQVJmSUNQWVk0cXVFc3h3Y2VicVNMdzVXYTRjeGhIbldOTGpJMVdUZmcyb1JSUngyMWFCU1Y1OVlmZkZJTG5tdFkzaUJ0ZklLaE9E?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Fri, 31 Oct 2025 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMioAFBVV95cUxOc2xOSWktdERNdlNsY0txMEhsNlJHcEthcHRPUnRxSnp1WWVzUnBZVHVyZVA1SzBPZkVaSTc1SVlZVGpqSTNIMWE4OXF5UWJiMlhLOU1yQVJmSUNQWVk0cXVFc3h3Y2VicVNMdzVXYTRjeGhIbldOTGpJMVdUZmcyb1JSUngyMWFCU1Y1OVlmZkZJTG5tdFkzaUJ0ZklLaE9E&q=EgRnd_JzGJvV4dcGIjCygWQ5maN7WI5pF5kk5dTEKXxrQt1QEvk51aLv6J8w7XVPLk5J1eXMbbI9KutK2-EyAnJSWgFDYLfd0fWe_afojgE)",
+      "key_passages": [
+        "‘The French Revolution’ Review: Bastille Day and After WSJ"
+      ]
+    },
+    {
+      "title": "Rewriting the French Revolution - UCI School of Humanities",
+      "publisher": "UCI School of Humanities",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IVXNvQW93U1VKTXNYRTRiSnpLSTB3UUVwSGJscXJibGFXeTVIUUFTSEZjR014Q0lRRTN5R2dndzBjR0VZTHhjeGZuMzdtUXAyRGRUUFB1b2hZLU4wZldtTzNNaVh0UVFrSEQxcy14V3A?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Wed, 11 Mar 2020 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMicEFVX3lxTE9IVXNvQW93U1VKTXNYRTRiSnpLSTB3UUVwSGJscXJibGFXeTVIUUFTSEZjR014Q0lRRTN5R2dndzBjR0VZTHhjeGZuMzdtUXAyRGRUUFB1b2hZLU4wZldtTzNNaVh0UVFrSEQxcy14V3A&q=EgRnd_JzGJzV4dcGIjCVL6FTjQLuKngy3k_0lZNF69S4O0KTKmyEYOJMN9htcoK5ehwM-Lv3vQVHc_e9hvwyAnJSWgFDYMif262Bq8ufcw)",
+      "key_passages": [
+        "Rewriting the French Revolution UCI School of Humanities"
+      ]
+    },
+    {
+      "title": "A New World Begins: The History of the French Revolution: A Q&A with NEH Public Scholar Jeremy D. Popkin - National Endowment for the Humanities (.gov)",
+      "publisher": "National Endowment for the Humanities (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQUF3cTNnZ2VzWE1ndkF6aFRYZHBueHdpR3FwTWJLdllnRUJKMWg3Z3pOalc2QzZYOWNlLWlFQjk4TlR3MzNzZk1LVUx4ZXBSMDEwV3dweHVrRzBsQzl6Q19oUm51cXlrRDB3bWlvU2ZjQ25vcWNhZUU4c2xEcDhmTkNRM0hYM2hjZzRKNzBFODFTVGNrMU84VDl0UDktYjZMWThQYkx3VjM?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Thu, 08 Jul 2021 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiqAFBVV95cUxNQUF3cTNnZ2VzWE1ndkF6aFRYZHBueHdpR3FwTWJLdllnRUJKMWg3Z3pOalc2QzZYOWNlLWlFQjk4TlR3MzNzZk1LVUx4ZXBSMDEwV3dweHVrRzBsQzl6Q19oUm51cXlrRDB3bWlvU2ZjQ25vcWNhZUU4c2xEcDhmTkNRM0hYM2hjZzRKNzBFODFTVGNrMU84VDl0UDktYjZMWThQYkx3VjM&q=EgRnd_JzGJzV4dcGIjCt-BBcSmrPlhiLVlBDNDrs10q7gk5TvTp9hGjeQo4p28xsRNDhv9jDugPZSJEAzR8yAnJSWgFDYOnw_bWotbL_5QE)",
+      "key_passages": [
+        "A New World Begins: The History of the French Revolution: A Q&A with NEH Public Scholar Jeremy D."
+      ]
+    },
+    {
+      "title": "Panic-Inducing Rumors Went Viral Ahead of the French Revolution - WSJ",
+      "publisher": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc3JJTFVTUmhINXVEX1J4S1R4aWJDTVlDOWVoLVRTQUd6Q1ltTEc5THBOUG1INnlzS29FMWVoMEkyRUxSRXFPWHFLZjlFNUh3aWZZbW5uN2p0TGtGbXpEbUJ5QXQ2TjREaU8yTkFPNlhubVdVY2R2U1JsRDhKOXRxTTFCbUxibTlDR1E?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Fri, 26 Sep 2025 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiigFBVV95cUxOc3JJTFVTUmhINXVEX1J4S1R4aWJDTVlDOWVoLVRTQUd6Q1ltTEc5THBOUG1INnlzS29FMWVoMEkyRUxSRXFPWHFLZjlFNUh3aWZZbW5uN2p0TGtGbXpEbUJ5QXQ2TjREaU8yTkFPNlhubVdVY2R2U1JsRDhKOXRxTTFCbUxibTlDR1E&q=EgRnd_JzGJzV4dcGIjBnzH_UYHZ2gZuvwdw8jsdMI44aLo1tlWLfci6hn7IzYWnUc-wIyNjGnFtu5Su9m98yAnJSWgFDYNazhdmtl42Y-wE)",
+      "key_passages": [
+        "Panic-Inducing Rumors Went Viral Ahead of the French Revolution WSJ"
+      ]
+    },
+    {
+      "title": "French Revolution Pamphlets, 1761-1807 - Brandeis University",
+      "publisher": "Brandeis University",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOGFGR0dWTHU3eTNvdTFLSmM2Q1dReGRWSFo4TmRvVFZDVmRmd29PWFpuVjZKRnJjUlMtcDBHSUs4RXN4Rkd3ZjhnVWtMQV9uTi1xOXk0YkFxUktVS0dLclQtRlpZWTBObWlZLTU3ajNkZ1ZnNjNyMzd5V00xZXltZTUwWkc4OHhBbmFPU2tNZDROMmZYZEFuUm0xWHI4TlR6dHRj?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Tue, 29 Nov 2011 08:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiowFBVV95cUxQOGFGR0dWTHU3eTNvdTFLSmM2Q1dReGRWSFo4TmRvVFZDVmRmd29PWFpuVjZKRnJjUlMtcDBHSUs4RXN4Rkd3ZjhnVWtMQV9uTi1xOXk0YkFxUktVS0dLclQtRlpZWTBObWlZLTU3ajNkZ1ZnNjNyMzd5V00xZXltZTUwWkc4OHhBbmFPU2tNZDROMmZYZEFuUm0xWHI4TlR6dHRj&q=EgRnd_JzGJzV4dcGIjDusdNH2vuTZQFvdGQVYow9bbn9A6r4s8BrL727inxNOMb512JDhKD2nOS_j07kB4YyAnJSWgFDYMS49Nbjzoe-EA)",
+      "key_passages": [
+        "French Revolution Pamphlets, 1761-1807 Brandeis University"
+      ]
+    },
+    {
+      "title": "How an Icelandic volcano helped spark the French Revolution - The Guardian",
+      "publisher": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWmtXZjI1bmFTdHd5SWhwTS1uUllWcnhaWmRnSlQ4b1Z0SDNmYzhacHEwaUNFenJFVFBwMFV2TTNFR0JubnppTjZfNkVFYl9YLXMzM1ZSREhzTEFaTXJSUTVGQk4yXy1mWFhyMzZDaDBsTDA3MkxWank0LVFuamRfMk5PN3dfNXpzTXdzQy11dkk?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Thu, 15 Apr 2010 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMikAFBVV95cUxQWmtXZjI1bmFTdHd5SWhwTS1uUllWcnhaWmRnSlQ4b1Z0SDNmYzhacHEwaUNFenJFVFBwMFV2TTNFR0JubnppTjZfNkVFYl9YLXMzM1ZSREhzTEFaTXJSUTVGQk4yXy1mWFhyMzZDaDBsTDA3MkxWank0LVFuamRfMk5PN3dfNXpzTXdzQy11dkk&q=EgRnd_JzGJ3V4dcGIjCFiubrKgmYKxvoKlMv1JWTFIh2raFZ5w_3dRrW_b1rXyj_5XIijeP_q2alTuBNzfgyAnJSWgFDYJfHnqPXhY7k4QE)",
+      "key_passages": [
+        "How an Icelandic volcano helped spark the French Revolution The Guardian"
+      ]
+    },
+    {
+      "title": "Britain and the French Revolution - BBC",
+      "publisher": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTkJVa2pnaXRnbFprc2xEMy1XVnNESTYzTXltbGpSOHdtRnRKNVhaQ0RncjNidERBOENBYm5Sd1FZNlJ4QnR6SVg5eUs2OWlzay1aajRuSkFjN3k4c0JWZHdScWxLYy1tcW9FbVV6cUZGSHRWWTRkWDVZUnhvcTNQc1BoOW4zQmhP?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Thu, 17 Feb 2011 08:00:00 GMT",
+      "fetch_status": "fetch_error: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiiAFBVV95cUxQTkJVa2pnaXRnbFprc2xEMy1XVnNESTYzTXltbGpSOHdtRnRKNVhaQ0RncjNidERBOENBYm5Sd1FZNlJ4QnR6SVg5eUs2OWlzay1aajRuSkFjN3k4c0JWZHdScWxLYy1tcW9FbVV6cUZGSHRWWTRkWDVZUnhvcTNQc1BoOW4zQmhP&q=EgRnd_JzGJ3V4dcGIjAIUQthW8_cJQu6Cob6A2qkbUFLEE0k2Pcx3hENrkcmadMs8rSvN_a3TsC8X3L70GsyAnJSWgFDYL2zpY-uzq-ROw",
+      "key_passages": []
+    },
+    {
+      "title": "Debunking the myths of the French Revolution - BBC",
+      "publisher": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WOVlXLU1uTTRHLUpyaW1sTTVjNnYzQnR4aTc3N2lKaklRaktKSUo1SVhMZzVjYzBJb0hlOFg4c3p0Q3ZXZkszSVBSaV91aFRjaVZYalJIR0gtWkU?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Fri, 20 Aug 2021 13:25:06 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiW0FVX3lxTE9WOVlXLU1uTTRHLUpyaW1sTTVjNnYzQnR4aTc3N2lKaklRaktKSUo1SVhMZzVjYzBJb0hlOFg4c3p0Q3ZXZkszSVBSaV91aFRjaVZYalJIR0gtWkU&q=EgRnd_JzGJ3V4dcGIjBGPn1iyPeb9LIBnMVtHhemayU8-L6fgoLwtzzv3hzoleMMI_fqvoeXxpzfJ-P4sxUyAnJSWgFDYN71g_bBr97ftwE)",
+      "key_passages": []
+    },
+    {
+      "title": "^ \"Illustrations from Révolutions de Paris\" . Department of History . 24 January 2014. Archived from the original on 29 January 2021 . Retrieved 25 January 2021 .",
+      "publisher": "history.dartmouth.edu",
+      "url": "https://history.dartmouth.edu/research/student-research/illustrations-revolutions-de-paris",
+      "source_kind": "Wikipedia reference",
+      "reference_page": "https://en.wikipedia.org/wiki/French_Revolution",
+      "published_at": "",
+      "fetch_status": "fetch_error: 404 Client Error: Not Found for url: https://history.dartmouth.edu/research/student-research/illustrations-revolutions-de-paris",
+      "key_passages": []
+    }
+  ],
+  "timeline": [
+    {
+      "event_date": "2005",
+      "date_precision": "year",
+      "event": "It opened its doors in March 2005 and has a collection of garments, watches, makeup, sunglasses, skin care and fragrances.",
+      "context": "The French brand’s only store in the city, The Chanel boutique is located at The Imperial, Janpath. It opened its doors in March 2005 and has a collection of garments, watches, makeup, sunglasses, skin care and fragrances. Currently, the store is displaying its pre-fall collection by designer Karl Lagerfeld that has been named Paris-Bombay collection. Lagerfeld has dedicated the collection to Mumbai.",
+      "evidence": "It opened its doors in March 2005 and has a collection of garments, watches, makeup, sunglasses, skin care and fragrances.",
+      "source_title": "The French Revolution | India News",
+      "publisher": "Hindustan Times",
+      "source_url": "https://www.hindustantimes.com/india/the-french-revolution/story-0rGAFI0Au75miY3UyBlaoJ.html",
+      "source_kind": "news search",
+      "reference_page": "",
+      "article_published_at": "2012-06-28T17:25:44+05:30",
+      "date_basis": "explicit year only",
+      "evidence_review": "supported by extracted source text",
+      "sources": [
+        {
+          "publisher": "Hindustan Times",
+          "source_title": "The French Revolution | India News",
+          "source_url": "https://www.hindustantimes.com/india/the-french-revolution/story-0rGAFI0Au75miY3UyBlaoJ.html",
+          "article_published_at": "2012-06-28T17:25:44+05:30",
+          "evidence": "It opened its doors in March 2005 and has a collection of garments, watches, makeup, sunglasses, skin care and fragrances.",
+          "source_kind": "news search",
+          "reference_page": ""
+        }
+      ]
+    },
+    {
+      "event_date": "2005",
+      "date_precision": "year",
+      "event": "She finally moved to Delhi when she opened Lola’s World in Hauz Khas Village in 2005, followed by a store in Goa.",
+      "context": "Chloe Le Bonnois visited India for the first time with her mother 14 years ago and instantly fell in love with the handicraft techniques and textiles produced in the country. It inspired her to create a kidswear brand ‘Nana-ki’, and she set up a manufacturing unit in India. She sold the garments through retailers in Europe. She finally moved to Delhi when she opened Lola’s World in Hauz Khas Village in 2005, followed by a store in Goa. Her shop sells kids garments, women garments, accessories and home furnishing. She has also opened a small cafe that serves coffee and fresh homemade juice.",
+      "evidence": "She finally moved to Delhi when she opened Lola’s World in Hauz Khas Village in 2005, followed by a store in Goa.",
+      "source_title": "The French Revolution | India News",
+      "publisher": "Hindustan Times",
+      "source_url": "https://www.hindustantimes.com/india/the-french-revolution/story-0rGAFI0Au75miY3UyBlaoJ.html",
+      "source_kind": "news search",
+      "reference_page": "",
+      "article_published_at": "2012-06-28T17:25:44+05:30",
+      "date_basis": "explicit year only",
+      "evidence_review": "supported by extracted source text",
+      "sources": [
+        {
+          "publisher": "Hindustan Times",
+          "source_title": "The French Revolution | India News",
+          "source_url": "https://www.hindustantimes.com/india/the-french-revolution/story-0rGAFI0Au75miY3UyBlaoJ.html",
+          "article_published_at": "2012-06-28T17:25:44+05:30",
+          "evidence": "She finally moved to Delhi when she opened Lola’s World in Hauz Khas Village in 2005, followed by a store in Goa.",
+          "source_kind": "news search",
+          "reference_page": ""
+        }
+      ]
+    },
+    {
+      "event_date": "2008",
+      "date_precision": "year",
+      "event": "Hequet came to Delhi in 2008 to follow his passion for hairstyling.",
+      "context": "Hequet came to Delhi in 2008 to follow his passion for hairstyling. He settled down in Delhi to work for a French salon called Dessange at New Friends Colony. Currently, Rodolphe, 31, is working as a hairstylist at the Aman salon in Aman Hotel, Lodhi Road. He has settled down in the city comfortably and says he loves to live life the Indian way. The young hair expert will continue his stay here as he feels there is a lot to explore and discover in India.",
+      "evidence": "Hequet came to Delhi in 2008 to follow his passion for hairstyling.",
+      "source_title": "The French Revolution | India News",
+      "publisher": "Hindustan Times",
+      "source_url": "https://www.hindustantimes.com/india/the-french-revolution/story-0rGAFI0Au75miY3UyBlaoJ.html",
+      "source_kind": "news search",
+      "reference_page": "",
+      "article_published_at": "2012-06-28T17:25:44+05:30",
+      "date_basis": "explicit year only",
+      "evidence_review": "supported by extracted source text",
+      "sources": [
+        {
+          "publisher": "Hindustan Times",
+          "source_title": "The French Revolution | India News",
+          "source_url": "https://www.hindustantimes.com/india/the-french-revolution/story-0rGAFI0Au75miY3UyBlaoJ.html",
+          "article_published_at": "2012-06-28T17:25:44+05:30",
+          "evidence": "Hequet came to Delhi in 2008 to follow his passion for hairstyling.",
+          "source_kind": "news search",
+          "reference_page": ""
+        }
+      ]
+    },
+    {
+      "event_date": "2009",
+      "date_precision": "year",
+      "event": "If you have a sweet tooth, then this patisserie, started by French national Laurent Charles Samandari in 2009, is the place to head to.",
+      "context": "If you have a sweet tooth, then this patisserie, started by French national Laurent Charles Samandari in 2009, is the place to head to. Initially launched as a takeaway joint, the place has become quite popular among Delhiites. The Khan Market outlet offers a host of items ranging from cakes to croissants and multi-grain breads. Popular items include macaroons, French baguette sandwiches, and sour dough breads.",
+      "evidence": "If you have a sweet tooth, then this patisserie, started by French national Laurent Charles Samandari in 2009, is the place to head to.",
+      "source_title": "The French Revolution | India News",
+      "publisher": "Hindustan Times",
+      "source_url": "https://www.hindustantimes.com/india/the-french-revolution/story-0rGAFI0Au75miY3UyBlaoJ.html",
+      "source_kind": "news search",
+      "reference_page": "",
+      "article_published_at": "2012-06-28T17:25:44+05:30",
+      "date_basis": "explicit year only",
+      "evidence_review": "supported by extracted source text",
+      "sources": [
+        {
+          "publisher": "Hindustan Times",
+          "source_title": "The French Revolution | India News",
+          "source_url": "https://www.hindustantimes.com/india/the-french-revolution/story-0rGAFI0Au75miY3UyBlaoJ.html",
+          "article_published_at": "2012-06-28T17:25:44+05:30",
+          "evidence": "If you have a sweet tooth, then this patisserie, started by French national Laurent Charles Samandari in 2009, is the place to head to.",
+          "source_kind": "news search",
+          "reference_page": ""
+        }
+      ]
+    },
+    {
+      "event_date": "2026",
+      "date_precision": "year",
+      "event": "🚨 Click Here to read the UPSC Essentials magazine for October 2026 .",
+      "context": "🚨 Click Here to read the UPSC Essentials magazine for October 2026 . Share your views and suggestions in the comment box or at manas.srivastava@indianexpress.com🚨",
+      "evidence": "🚨 Click Here to read the UPSC Essentials magazine for October 2026 .",
+      "source_title": "UPSC Mains Answer Practice — GS 1: Kalighat paintings and the French Revolution (Week 179)",
+      "publisher": "The Indian Express",
+      "source_url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-mains-answer-practice-gs-1-week-179-10951820/",
+      "source_kind": "news search",
+      "reference_page": "",
+      "article_published_at": "2026-11-05T16:56:24+05:30",
+      "date_basis": "explicit year only",
+      "evidence_review": "supported by extracted source text",
+      "sources": [
+        {
+          "publisher": "The Indian Express",
+          "source_title": "UPSC Mains Answer Practice — GS 1: Kalighat paintings and the French Revolution (Week 179)",
+          "source_url": "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-mains-answer-practice-gs-1-week-179-10951820/",
+          "article_published_at": "2026-11-05T16:56:24+05:30",
+          "evidence": "🚨 Click Here to read the UPSC Essentials magazine for October 2026 .",
+          "source_kind": "news search",
+          "reference_page": ""
+        }
+      ]
+    }
+  ],
+  "overview": "**In 2005:** The French brand’s only store in the city, The Chanel boutique is located at The Imperial, Janpath. It opened its doors in March 2005 and has a collection of garments, watches, makeup, sunglasses, skin care and fragrances. Currently, the store is displaying its pre-fall collection by designer Karl Lagerfeld that has been named Paris-Bombay collection. Lagerfeld has dedicated the collection to Mumbai. Chloe Le Bonnois visited India for the first time with her mother 14 years ago and instantly fell in love with the handicraft techniques and textiles produced in the country. It inspired her to create a kidswear brand ‘Nana-ki’, and she set up a manufacturing unit in India. She sold the garments through retailers in Europe. She finally moved to Delhi when she opened Lola’s World in Hauz Khas Village in 2005, followed by a store in Goa. Her shop sells kids garments, women garments, accessories and home furnishing. She has also opened a small cafe that serves coffee and fresh homemade juice. [Hindustan Times](https://www.hindustantimes.com/india/the-french-revolution/story-0rGAFI0Au75miY3UyBlaoJ.html)\n\n**In 2008:** Hequet came to Delhi in 2008 to follow his passion for hairstyling. He settled down in Delhi to work for a French salon called Dessange at New Friends Colony. Currently, Rodolphe, 31, is working as a hairstylist at the Aman salon in Aman Hotel, Lodhi Road. He has settled down in the city comfortably and says he loves to live life the Indian way. The young hair expert will continue his stay here as he feels there is a lot to explore and discover in India. [Hindustan Times](https://www.hindustantimes.com/india/the-french-revolution/story-0rGAFI0Au75miY3UyBlaoJ.html)\n\n**In 2009:** If you have a sweet tooth, then this patisserie, started by French national Laurent Charles Samandari in 2009, is the place to head to. Initially launched as a takeaway joint, the place has become quite popular among Delhiites. The Khan Market outlet offers a host of items ranging from cakes to croissants and multi-grain breads. Popular items include macaroons, French baguette sandwiches, and sour dough breads. [Hindustan Times](https://www.hindustantimes.com/india/the-french-revolution/story-0rGAFI0Au75miY3UyBlaoJ.html)\n\n**In 2026:** 🚨 Click Here to read the UPSC Essentials magazine for October 2026 . Share your views and suggestions in the comment box or at manas.srivastava@indianexpress.com🚨 [The Indian Express](https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/upsc-mains-answer-practice-gs-1-week-179-10951820/)"
+}

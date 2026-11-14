@@ -1,0 +1,797 @@
+{
+  "topic": "epstein files full controversy",
+  "topic_interpretation": "epstein files full controversy",
+  "generated_at": "2026-11-14T17:59:45.214410+00:00",
+  "method": "Delegated multi-agent research: parallel search, publisher verification, parallel scraping, context extraction, dated event analysis, evidence review, and timeline editing",
+  "agent_run": [
+    {
+      "agent": "ResearchPlannerAgent",
+      "status": "completed",
+      "delegated_search_tasks": 7
+    },
+    {
+      "agent": "NewsSearchAgent",
+      "status": "completed",
+      "tasks": [
+        {
+          "provider": "bing",
+          "query": "epstein files full controversy",
+          "candidate_count": 12,
+          "error": ""
+        },
+        {
+          "provider": "google",
+          "query": "epstein files full controversy",
+          "candidate_count": 33,
+          "error": ""
+        },
+        {
+          "provider": "bing",
+          "query": "epstein files full controversy timeline key events",
+          "candidate_count": 0,
+          "error": ""
+        },
+        {
+          "provider": "google",
+          "query": "epstein files full controversy timeline key events",
+          "candidate_count": 33,
+          "error": ""
+        },
+        {
+          "provider": "bing",
+          "query": "epstein files full controversy history chronology dates causes consequences",
+          "candidate_count": 0,
+          "error": ""
+        },
+        {
+          "provider": "google",
+          "query": "epstein files full controversy history chronology dates causes consequences",
+          "candidate_count": 9,
+          "error": ""
+        },
+        {
+          "provider": "wikipedia",
+          "query": "epstein files full controversy",
+          "candidate_count": 0,
+          "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=parse&page=Bill+Clinton&prop=text&format=json"
+        }
+      ]
+    },
+    {
+      "agent": "WikipediaReferenceAgent",
+      "status": "completed",
+      "reference_pages": []
+    },
+    {
+      "agent": "SourceQualityAgent",
+      "status": "completed",
+      "trusted_sources_selected": 20
+    },
+    {
+      "agent": "ArticleScraperAgent",
+      "status": "completed",
+      "pages_scraped": 20
+    },
+    {
+      "agent": "ArticleContextAgent",
+      "status": "completed",
+      "source_briefs_created": 20
+    },
+    {
+      "agent": "TimelineAnalystAgent",
+      "status": "completed",
+      "event_claims_extracted": 4
+    },
+    {
+      "agent": "TopicRelevanceAgent",
+      "status": "completed",
+      "claims_kept": 4,
+      "off_topic_claims_removed": 0
+    },
+    {
+      "agent": "EvidenceReviewerAgent",
+      "status": "completed",
+      "claims_supported": 4,
+      "claims_rejected": 0
+    },
+    {
+      "agent": "EventConflictReviewerAgent",
+      "status": "completed",
+      "conflicting_dates": [
+        "2008",
+        "2019",
+        "2019-04-14",
+        "2021"
+      ]
+    },
+    {
+      "agent": "TimelineEditor",
+      "status": "completed",
+      "timeline_entries": 4
+    },
+    {
+      "agent": "ReportWriterAgent",
+      "status": "completed"
+    }
+  ],
+  "limitations": [
+    "The search engine is not exhaustive; source quality depends on its result ranking.",
+    "Paywalls and blocked pages may leave only an RSS or metadata summary.",
+    "Month/day dates without a year use the dominant year in that article and are labeled as inferred.",
+    "Different sourced accounts are retained separately unless their dated sentences match exactly.",
+    "Wikipedia references are supplementary pointers; each linked publisher page is fetched and checked separately."
+  ],
+  "source_count": 20,
+  "rejected_event_claims": 0,
+  "articles": [
+    {
+      "title": "Bondi No-Show Deepens Epstein Files Controversy As Lawmakers Accuse Ex-AG Of 'Cover-Up'",
+      "url": "https://timesofindia.indiatimes.com/videos/international/bondi-no-show-deepens-epstein-files-controversy-as-lawmakers-accuse-ex-ag-of-cover-up/videoshow/130293223.cms",
+      "publisher": "Indiatimes",
+      "published_at": "16 Apr 2026, 04:00:00 AM",
+      "paragraphs": [
+        "The Supreme Court has ruled that the mandatory 24-hour period for producing a detained person before a magistrate begins from the moment their personal liberty is curtailed, not when the arrest is formally recorded. Rejecting any artificial distinction between detention and arrest, the bench said investigating agencies cannot create a buffer period to delay constitutional safeguards under Article 22(2). The ruling came in an NDPS case involving four accused in Tripura, whose immediate release was ordered over a violation of the 24-hour limit. The court also directed magistrates to record the exact time a person's liberty is restricted and verify compliance, stressing that constitutional protections cannot be diluted through procedural delays.",
+        "Congress leader and Lok Sabha Leader of Opposition Rahul Gandhi has renewed his challenge to Prime Minister Narendra Modi for an open debate, saying 24 hours have passed since his initial dare. In a video shared on X, Gandhi urged Modi to choose any venue and proposed holding the discussion in front of the media and India's youth. He even suggested RSS chief Mohan Bhagwat as the moderator. Gandhi listed several issues for discussion, including the financial system, the US deal, the Adani case and Jeffrey Epstein. He also challenged Modi to file a defamation case over his allegations of foreign connections. Gandhi ended the video by urging an early debate and extending Diwali greetings to the Prime Minister."
+      ],
+      "fetch_status": "ok",
+      "rss_summary": "Former U.S. Attorney General Pam Bondi is facing backlash after failing to appear for a congressional deposition related to the Jeffrey Epstein files. Lawmakers say she was subpoenaed to testify about the handling of the investigation, and some are now considering contempt proceedings if she does not comply. The controversy comes amid broader scrutiny over how Epstein-related records were managed. Here's what we know so far and what could happen next.",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "Why DOJ Hasn’t Charged Anyone Else From the Epstein Files",
+      "url": "https://www.politico.com/news/magazine/2026/03/11/epstein-files-justice-department-no-prosecutions-column-00821127",
+      "publisher": "Politico",
+      "published_at": "Wed, 11 Mar 2026 01:45:00 GMT",
+      "paragraphs": [
+        "The release of the Epstein files was supposed to quell the controversy over whether the late convicted sex offender Jeffrey Epstein committed child sex crimes with a host of wealthy, prominent men."
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 403 Client Error: Forbidden for url: https://www.politico.com/news/magazine/2026/03/11/epstein-files-justice-department-no-prosecutions-column-00821127)",
+      "rss_summary": "The release of the Epstein files was supposed to quell the controversy over whether the late convicted sex offender Jeffrey Epstein committed child sex crimes with a host of wealthy, prominent men.",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "A look at how the Epstein files dogged Pam Bondi's time as attorney general | World News",
+      "url": "https://www.hindustantimes.com/world-news/a-look-at-how-the-epstein-files-dogged-pam-bondis-time-as-attorney-general-101775198877781.html",
+      "publisher": "Hindustan Times",
+      "published_at": "2026-04-03T12:27:16+05:30",
+      "paragraphs": [
+        "After Pam Bondi became U.S. attorney general last year, conservative influencers, online sleuths and others who wanted the government to disclose all it knew about Jeffrey Epstein thought they might have a champion in the Department of Justice.",
+        "So did Jess Michaels, one of the legions of women who have said they were sexually assaulted by the late financier and convicted sex offender with a roster of powerful friends in business, politics and beyond.",
+        "“I thought, ‘Well, maybe a woman stepping into this role will finally, finally get the truth,’” Michaels recalled Thursday, after President Donald Trump announced Bondi was out of the nation's top law enforcement job.",
+        "“She had this opportunity to be a hero and to really do right by survivors of sexual violence and trafficking,” Michaels said, \"and she chose not to.”",
+        "The furor over the “Epstein files,” as the trove of investigative records came to be known, wasn't the only controversy of Bondi's tenure. But the arc — first raising expectations for a big reveal, then declaring there was nothing to see, and ultimately a forced, flawed document dump — was a stubbornly problematic storyline that ran through her time as attorney general.",
+        "Bondi rejected criticism of her handling of the matter, and Trump on Thursday praised her as “a Great American Patriot and a loyal friend.”",
+        "Michaels and other Epstein victims watched it all with shaken trust that Bondi's departure alone won't likely rebuild.",
+        "“This is not about a single person,” accuser Annie Farmer said Thursday. “It is about a government and judicial system that has repeatedly failed Epstein survivors.”",
+        "Freshly confirmed as attorney general for a president who had suggested on the campaign trail that he'd open more government documents on Epstein, Bondi whetted appetites by declaring on Fox News that “you’re going to see some Epstein information released.” And when a host asked about \"releasing “the list of Jeffrey Epstein’s clients” — a long-rumored, never-seen sex trafficking roster — she replied that it was “sitting on my desk right now.”",
+        "A day later, conservative commentators and content creators were brought to the White House to get DOJ binders emblazoned with “The Epstein Files: Phase 1” and “Declassified.”",
+        "The attempt to showcase transparency soon backfired, once it emerged that the contents largely were already public. Bondi demanded that the FBI give her “the full and complete Epstein files,” and she later said that she'd unearthed a \"truckload” of previously withheld material and that “everything is going to come out to the public.”",
+        "After months of anticipation, the Justice Department said it wouldn't release any more Epstein material . A court had sealed much of it to protect victims, and “only a fraction” would have come out if Epstein had gone to trial, the agency said in an unsigned memo. It added that authorities hadn't found evidence that merited new charges or investigations and that “perpetuating unfounded theories about Epstein” wouldn't help victims get justice.",
+        "And, it said, there was no “client list.” As for Bondi's prior comment that it was on her desk, officials said she had meant the overall case file.",
+        "Conservative influencers, among others, blasted the turnabout and questioned Bondi’s capability. But Trump stood by her, scolding a journalist for attempting to ask her a question about Epstein at a White House Cabinet meeting.",
+        "Trump had himself raised questions for some years after Epstein's 2019 death in jail as the financier faced federal sex trafficking charges . After the Justice Department memo, however, the president suggested there was nothing more to say about Epstein and the country, including his own supporters , should simply move on.",
+        "Amid a drumbeat of disclosures that begin to exact consequences for some powerful people — particularly Andrew Mountbatten-Windsor , Britain's former Prince Andrew — Congress passed legislation to force the Justice Department to disclose its investigative files on Epstein. Trump signed it into law, casting the quest for Epstein information as a Democratic-led distraction from the Republican agenda.",
+        "Meanwhile, at his urging, Bondi announced that the U.S. attorney in Manhattan would investigate Epstein’s ties to some of the Republican president’s political foes, including Democratic former President Bill Clinton. None has been accused of misconduct by Epstein’s accusers; nor has Trump, another former Epstein friend. Both Clinton and Trump have said they knew nothing about Epstein's misconduct and cut ties with him many years ago.",
+        "At the statutory deadline for making the Epstein files public, the Justice Department released only some of them . While the records included some material the public hadn't previously seen, including some candid photos of Clinton, the documents didn't break major ground and included little about Trump.",
+        "The department said it was continuing to review other Epstein records to make sure that victims were protected .",
+        "But Democrats cried cover-up , bill sponsor Rep. Thomas Massie, R-Ky., accused the Justice Department of breaking the law by missing the deadline and redacting too much, and some Epstein accusers also questioned the extensive redactions.",
+        "The Justice Department began releasing a huge cache of additional Epstein documents, videos and photos, though others remained under wraps.",
+        "The records pulled back a curtain on favor-trading and frank communications in a chummy elite that looked past Epstein's 2008 guilty plea to solicitating prostitution from an underage girl in Florida. Some high-flying Epstein friends resigned or lost jobs in corporate America , academia , big law firms , the British , Slovakian and Norwegian governments and beyond.",
+        "But the documents disclosed highly personal information about some victims while redacting the names of Epstein correspondents in, for example, emails that appeared to refer to the sexual abuse of underage girls.",
+        "Gloria Allred, an attorney for numerous Epstein victims, said Thursday that Bondi betrayed them by failing to protect personal information in the files.",
+        "“She has destroyed the trust in the DOJ that victims had a right to expect, and her termination may be the only type of justice that survivors will receive from the DOJ,” Allred said by email.",
+        "At a congressional hearing, a combative Bondi tried to quell the Epstein files controversy . She defended how the Justice Department dealt with it, lobbed personal insults at Democrats and lauded Trump over, among other things, the performance of the stock market.",
+        "Bondi said she was deeply sorry for what Epstein victims suffered. But she declined a request from Rep. Pramila Jayapal, D-Wash., to face and apologize to them for the Justice Department's actions, and Bondi dismissed Massie’s critiques of the release of victims’ personal information.",
+        "The House Committee on Oversight and Government Reform subpoenaed Bondi to answer questions on April 14 about the Justice Department’s handling of the Epstein investigation and file release. With five Republicans joining Democrats to support the subpoena, it reflected widespread discontent, including in the GOP base, over Bondi’s management of the matter.",
+        "For now, Deputy Attorney General Todd Blanche will be the acting attorney general.",
+        "Michaels, who traveled to the Capitol last year to press for the files’ release, wanted Bondi gone. But will Blanche do better?",
+        "\"We can only hope. But given that they worked together, I don’t have great expectations,” she said.",
+        "The Associated Press generally does not identify people who say they have been sexually assaulted unless they come forward publicly, as Michaels has done.",
+        "Robert Glassman, an attorney for a woman who testified as “Jane” in the 2021 criminal trial of Epstein confidante Ghislaine Maxwell, noted that agency leaders come and go.",
+        "“For victims of sexual abuse, what matters is whether the institutions meant to protect them actually do their job,” he said."
+      ],
+      "fetch_status": "ok",
+      "rss_summary": "After Pam Bondi's departure as US attorney general, victims of Jeffrey Epstein expressed distrust in the justice system.  | World News",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "A timeline of the controversy over the administration's handling of the Epstein files - NPR",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVXhSSVdBM3YzNkJnaDV1eFZZR1ZOMWpvQnRySjVMUVR6QU0wMV9TOUdUTVpsclFycURlbzdLSEJVNm4wRHFUZC0xRkVwQkctd2JUa21xb1RXRTJkTWQ2MzVhRDBCZmpJbGY2ZkRMQzRULVRqMzlmSmVWYlgwN3B2UzExcS1oS3dVN2JBSnRmSFYtSTRuSVNkYUdFMXdodFFjckJJU3NFbUtENWZZek1xTHA4V2dhMHI5cS1JMXVKbUpPLWlVSk1vdw?oc=5",
+      "publisher": "NPR",
+      "published_at": "Thu, 17 Jul 2025 07:00:00 GMT",
+      "paragraphs": [
+        "A timeline of the controversy over the administration's handling of the Epstein files NPR"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiyAFBVV95cUxNVXhSSVdBM3YzNkJnaDV1eFZZR1ZOMWpvQnRySjVMUVR6QU0wMV9TOUdUTVpsclFycURlbzdLSEJVNm4wRHFUZC0xRkVwQkctd2JUa21xb1RXRTJkTWQ2MzVhRDBCZmpJbGY2ZkRMQzRULVRqMzlmSmVWYlgwN3B2UzExcS1oS3dVN2JBSnRmSFYtSTRuSVNkYUdFMXdodFFjckJJU3NFbUtENWZZek1xTHA4V2dhMHI5cS1JMXVKbUpPLWlVSk1vdw&q=EgRnd_JzGIvD4tcGIjDXw5y4WjLtKDUQ6vP7MWRiR_rWHhPUQ4o_JD-iuA8kta2hIbJtuqhZ76JDy70M3AoyAnJSWgFDYJzBho2J6-HLiwE)",
+      "rss_summary": "A timeline of the controversy over the administration's handling of the Epstein files NPR",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "A timeline of the Jeffrey Epstein investigation and the fight to make the government's files public - PBS",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVThDTHdGdVJiTGNDRmJQNURYWG9vYkR0Tkd1akhsM2MwNGd2UzhVVERUOHVSVVplbGg1VVBxSzZtV3pVWFZNaC04NmhpRnFDTVFJTE1MR3VubEpEWEZuNVZobkdmT0RQazU1dVlBcDZZWWtXV0hremVUbXVkU1VrdW56TG1EVEFmYzNOQ3d2cVRYQWdVVU9zdl8tMmdvSDYxeFhnc2d0blI1TDNlUXFfTDBTZDQwNWM4UktlaHJFbllKdGhtWE5qUXNwN1Jva241eEHSAdcBQVVfeXFMUGFTcnZ4QkpTWHdnY2Z0U1lxQzJmcWVtZG5QTXdNN2toU3JLSThsRHF3Sjl4THdUelpjUlgwQ3BQbjJ0RjlfYkRPTF9LR3VLS0pUQWstSTlYczJMSXJSMVMxSEpsUk9saFM5SVdFWDZydWE4WV82QTR1VHpIb0Q5anhkbFFpeVB1X0JjV3ZLZWp2R09JckF4Mmt4dGgwMW1tOHo3T3VndzRmUEN6c09qNmlGeEljNEpPWURacmZnaDhBendha2xLUVZJTkFMWndwMGUxX2pBUlE?oc=5",
+      "publisher": "PBS",
+      "published_at": "Fri, 06 Feb 2026 15:31:40 GMT",
+      "paragraphs": [
+        "A timeline of the Jeffrey Epstein investigation and the fight to make the government's files public PBS"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMi0gFBVV95cUxNVThDTHdGdVJiTGNDRmJQNURYWG9vYkR0Tkd1akhsM2MwNGd2UzhVVERUOHVSVVplbGg1VVBxSzZtV3pVWFZNaC04NmhpRnFDTVFJTE1MR3VubEpEWEZuNVZobkdmT0RQazU1dVlBcDZZWWtXV0hremVUbXVkU1VrdW56TG1EVEFmYzNOQ3d2cVRYQWdVVU9zdl8tMmdvSDYxeFhnc2d0blI1TDNlUXFfTDBTZDQwNWM4UktlaHJFbllKdGhtWE5qUXNwN1Jva241eEHSAdcBQVVfeXFMUGFTcnZ4QkpTWHdnY2Z0U1lxQzJmcWVtZG5QTXdNN2toU3JLSThsRHF3Sjl4THdUelpjUlgwQ3BQbjJ0RjlfYkRPTF9LR3VLS0pUQWstSTlYczJMSXJSMVMxSEpsUk9saFM5SVdFWDZydWE4WV82QTR1VHpIb0Q5anhkbFFpeVB1X0JjV3ZLZWp2R09JckF4Mmt4dGgwMW1tOHo3T3VndzRmUEN6c09qNmlGeEljNEpPWURacmZnaDhBendha2xLUVZJTkFMWndwMGUxX2pBUlE&q=EgRnd_JzGIzD4tcGIjDDthjJm004knor1XJsAazAOb4YkTs45bsmLQ277IhuJaCDC5F7t7d4ztflwcttvwsyAnJSWgFDYMjN7o-_mr_LlgE)",
+      "rss_summary": "A timeline of the Jeffrey Epstein investigation and the fight to make the government's files public PBS",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "US Epstein files full of famous names, but not Trump's - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ3dFZmh2T2hfaVZwSWdsb19BQUREMVIwOUpUWDRfVGtFSE1aUk00M0xnQVJodklmek94d0wtNGtCUlpiM0JfVGY0NzZYQS1rdW9rbS1PUFFkNy1DakMxNUgtNlpkbk5hRkY2TkZBczhQd1hEQ3o1WU9rc0ZOX0JlNlZTLUtlN0NXdGdoeGNucVBRcmFIRFZ3SENDUjRhaGotbDN4ckpsajBMQkF4bmg3eVZnekx3Zw?oc=5",
+      "publisher": "Reuters",
+      "published_at": "Sat, 20 Dec 2025 08:00:00 GMT",
+      "paragraphs": [
+        "US Epstein files full of famous names, but not Trump's Reuters"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMitgFBVV95cUxOQ3dFZmh2T2hfaVZwSWdsb19BQUREMVIwOUpUWDRfVGtFSE1aUk00M0xnQVJodklmek94d0wtNGtCUlpiM0JfVGY0NzZYQS1rdW9rbS1PUFFkNy1DakMxNUgtNlpkbk5hRkY2TkZBczhQd1hEQ3o1WU9rc0ZOX0JlNlZTLUtlN0NXdGdoeGNucVBRcmFIRFZ3SENDUjRhaGotbDN4ckpsajBMQkF4bmg3eVZnekx3Zw&q=EgRnd_JzGIzD4tcGIjDS_rBfXZQrz_7iTQ-nai48zaxpuFzq5ATBhzMKNXkKPUtQzeqNMsajla787C1VhMwyAnJSWgFDYLnf6pza4rfFOg)",
+      "rss_summary": "US Epstein files full of famous names, but not Trump's Reuters",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "Democrats vow to fight ‘full-blown cover-up’ after release of Epstein files - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVExSZU13d1VMcGdiN1RubkdLN1prckhEd2tCNzlEeURrZEhXVzctWVhWc3NqZVVnczdlQ3FqOHdSMWFqNmtFcHU3YmwzRm5aU3R6WjJ4U2Jpamx6WnpoNy1rR0JnVTNIRVdlTC0yQXlCbmU2U2JxMlljalRFTU4wdFZvalp6cDFGNzVybUFhWG1DaFU?oc=5",
+      "publisher": "The Guardian",
+      "published_at": "Mon, 02 Feb 2026 08:00:00 GMT",
+      "paragraphs": [
+        "Democrats vow to fight ‘full-blown cover-up’ after release of Epstein files The Guardian"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMikwFBVV95cUxQVExSZU13d1VMcGdiN1RubkdLN1prckhEd2tCNzlEeURrZEhXVzctWVhWc3NqZVVnczdlQ3FqOHdSMWFqNmtFcHU3YmwzRm5aU3R6WjJ4U2Jpamx6WnpoNy1rR0JnVTNIRVdlTC0yQXlCbmU2U2JxMlljalRFTU4wdFZvalp6cDFGNzVybUFhWG1DaFU&q=EgRnd_JzGIzD4tcGIjCp9vamMW2jTnuj8hOu0OmBeCYT5whSA6XQ9NshSejaOtnlP1gcxJ9Y2kPIGV5GUAkyAnJSWgFDYOCc4o2DuOGwTw)",
+      "rss_summary": "Democrats vow to fight ‘full-blown cover-up’ after release of Epstein files The Guardian",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "The Epstein Files Timeline Raises Real Questions for Trump - Politico",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZnFtdFo0dklrSGVvZkZHR20xdjlXRDNJQjJVUjJ6dWxMUWlaYXVVaDNUbG5IdmI0ZXRfdkJHMlNVb0pKcGt4WFdmYnlEU09tU1Q4WGlmWVV4Rm14cVdrS0tCaWVPa2VZSnJxVm5ZUi02QXJzNGc2WWpQN3FPSUdNbThEV0Q4VXU4Y1hHYWNPTjNnTnlvcHcxc3Bn?oc=5",
+      "publisher": "Politico",
+      "published_at": "Fri, 25 Jul 2025 07:00:00 GMT",
+      "paragraphs": [
+        "The Epstein Files Timeline Raises Real Questions for Trump Politico"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMimgFBVV95cUxOZnFtdFo0dklrSGVvZkZHR20xdjlXRDNJQjJVUjJ6dWxMUWlaYXVVaDNUbG5IdmI0ZXRfdkJHMlNVb0pKcGt4WFdmYnlEU09tU1Q4WGlmWVV4Rm14cVdrS0tCaWVPa2VZSnJxVm5ZUi02QXJzNGc2WWpQN3FPSUdNbThEV0Q4VXU4Y1hHYWNPTjNnTnlvcHcxc3Bn&q=EgRnd_JzGI3D4tcGIjAbiWrC7C81SnB8woKIDjiic1DNjw2wGB-wyTAecMX9HEe_kMYSUETLVzDI4H4rCXkyAnJSWgFDYO_5yu7kzfzaUg)",
+      "rss_summary": "The Epstein Files Timeline Raises Real Questions for Trump Politico",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "Trump makes the Epstein files public. Here's a timeline of his shifting stance - NPR",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRWdUTU9HWHR0eDZHSlpzekVYM2d0eHJMLWlydmIza1JJOWtIREltME5XUjZVSlI2a3FCbUpqR1pHRkFfdlI5RlRsb1R4MEFkdkxLZFgzdVlsV2RBRGJ6YW1SVy1RRWl6ZnZzbzBIU3kzd180TjkxeVUzYklHcnJxTHU4bUdFR3pDbkVVSWtISQ?oc=5",
+      "publisher": "NPR",
+      "published_at": "Fri, 22 Aug 2025 07:00:00 GMT",
+      "paragraphs": [
+        "Trump makes the Epstein files public. Here's a timeline of his shifting stance NPR"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMijwFBVV95cUxNRWdUTU9HWHR0eDZHSlpzekVYM2d0eHJMLWlydmIza1JJOWtIREltME5XUjZVSlI2a3FCbUpqR1pHRkFfdlI5RlRsb1R4MEFkdkxLZFgzdVlsV2RBRGJ6YW1SVy1RRWl6ZnZzbzBIU3kzd180TjkxeVUzYklHcnJxTHU4bUdFR3pDbkVVSWtISQ&q=EgRnd_JzGI3D4tcGIjA94UNTIcjWqoDBCGDl9CEj0ikRUIYNxn1MTqRo1baX4YtaJ1262UkWIIlMTTa3hMMyAnJSWgFDYPn6pYTAwanEdg)",
+      "rss_summary": "Trump makes the Epstein files public. Here's a timeline of his shifting stance NPR",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "The Epstein Files: A Timeline - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42dUNVZ0Ffb0hBSmhXLVRGX1FPcHZMV3p3UW9MWHl1VnpmVEUxeEFWNEJFWm5Bd3E2cWxVM2NGZThXLTEzT2tRRXNOOVZ5NHFHMzFYLUEwWndqSmNSVlVTaEdDX1ZaT3h6VG03cmRtYV9rNUxXVm14TmtPYw?oc=5",
+      "publisher": "The New York Times",
+      "published_at": "Mon, 16 Mar 2026 07:00:00 GMT",
+      "paragraphs": [
+        "The Epstein Files: A Timeline The New York Times"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMie0FVX3lxTE42dUNVZ0Ffb0hBSmhXLVRGX1FPcHZMV3p3UW9MWHl1VnpmVEUxeEFWNEJFWm5Bd3E2cWxVM2NGZThXLTEzT2tRRXNOOVZ5NHFHMzFYLUEwWndqSmNSVlVTaEdDX1ZaT3h6VG03cmRtYV9rNUxXVm14TmtPYw&q=EgRnd_JzGI3D4tcGIjB6UfdHdZ8Y48ft5G55Zogt6e6zZi50iCJ3vnGqv4riVKb5tJwAtL3wz84_7FkTBS8yAnJSWgFDYIPNpPKdyorQxgE)",
+      "rss_summary": "The Epstein Files: A Timeline The New York Times",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "Epstein files take back seat in midterms but experts say issue has not gone away - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51ZGlydVlkeUlWdW82bEdOZmdVTDBRU1RkSk1MWURCUE9zcG9adFIyYWVkN0dVb2ZYbXpwNUJiNmlJRzlqQjdpbG14R19rQUpMdUJkcXhPMW1EV2ZNdmp0ajN5S3k1X2l4Y08xRUJwVXl6ZURFUmhPYXZ3?oc=5",
+      "publisher": "The Guardian",
+      "published_at": "Sat, 24 Oct 2026 07:00:00 GMT",
+      "paragraphs": [
+        "Epstein files take back seat in midterms but experts say issue has not gone away The Guardian"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiekFVX3lxTE51ZGlydVlkeUlWdW82bEdOZmdVTDBRU1RkSk1MWURCUE9zcG9adFIyYWVkN0dVb2ZYbXpwNUJiNmlJRzlqQjdpbG14R19rQUpMdUJkcXhPMW1EV2ZNdmp0ajN5S3k1X2l4Y08xRUJwVXl6ZURFUmhPYXZ3&q=EgRnd_JzGI7D4tcGIjC4VzlE4Oa4Lbd8CaQvVTFC4Fb6qqZm7FsWNQyC78obyZy-ToMgUTqYFGtBTRmNWvQyAnJSWgFDYKySxZyVwP2RggE)",
+      "rss_summary": "Epstein files take back seat in midterms but experts say issue has not gone away The Guardian",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "Inside the White House Freakout Over the Epstein Files - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcFpnQ0x1NmFMR25QV3I1cnI1aXI4ekhxQmstMFQ5Y3pxQ0x1eVR2S1RZdU1DZ2pKdlp4bVIycnRxc0RMWWtVRG5JQUdYM2MzZ1AxQ1NKc0JaYUh6Tk9zVFZuWGEyZ0hvS3Q3WjJ0b205U0E1a25NZUdGSHpiX0gycmhoWGRzdng2Q244VVhPbmtoZS0x?oc=5",
+      "publisher": "The New York Times",
+      "published_at": "Wed, 10 Jun 2026 07:00:00 GMT",
+      "paragraphs": [
+        "Inside the White House Freakout Over the Epstein Files The New York Times"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMilAFBVV95cUxPcFpnQ0x1NmFMR25QV3I1cnI1aXI4ekhxQmstMFQ5Y3pxQ0x1eVR2S1RZdU1DZ2pKdlp4bVIycnRxc0RMWWtVRG5JQUdYM2MzZ1AxQ1NKc0JaYUh6Tk9zVFZuWGEyZ0hvS3Q3WjJ0b205U0E1a25NZUdGSHpiX0gycmhoWGRzdng2Q244VVhPbmtoZS0x&q=EgRnd_JzGI7D4tcGIjD3jbeWEdhyIfz2-uZZ7x_jdhgvTScq1sl7FTr0AHpaUBSeVlf_WfoP4r-6e8lbKsoyAnJSWgFDYMP1nuSr_PzX1AE)",
+      "rss_summary": "Inside the White House Freakout Over the Epstein Files The New York Times",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "6 Takeaways From the Story of How the Epstein Files Paralyzed the White House - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNDB1Y2lwaEU4SXR3R2d0TTFjV1hZM2pFQjh4OWNzVFRFUDZrc1prTGUxbk9mWjBSX19hbjh2amdGTWcyVjI1WVBhYXFPOFV2dEp4UkZFdjM3QXQ0N3J6Nm9RTmVTNFI3TTZJTm1uWUlyUWlLWE41UzZWM21sbzlVeVBoWnVTbGg0VUEydlhKd1JWQkFE?oc=5",
+      "publisher": "The New York Times",
+      "published_at": "Wed, 10 Jun 2026 07:00:00 GMT",
+      "paragraphs": [
+        "6 Takeaways From the Story of How the Epstein Files Paralyzed the White House The New York Times"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMilAFBVV95cUxNNDB1Y2lwaEU4SXR3R2d0TTFjV1hZM2pFQjh4OWNzVFRFUDZrc1prTGUxbk9mWjBSX19hbjh2amdGTWcyVjI1WVBhYXFPOFV2dEp4UkZFdjM3QXQ0N3J6Nm9RTmVTNFI3TTZJTm1uWUlyUWlLWE41UzZWM21sbzlVeVBoWnVTbGg0VUEydlhKd1JWQkFE&q=EgRnd_JzGI7D4tcGIjCmbDeFWB96EWOUDG1gRbmXK9Zr8zLhWHcLeGu4zpuFCWVn29alKw92LFXsEwYnnOgyAnJSWgFDYL7j2cD-z8ar8AE)",
+      "rss_summary": "6 Takeaways From the Story of How the Epstein Files Paralyzed the White House The New York Times",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "What we know about the Epstein files that the US is poised to release - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lTWRxVmxfdmNra0tKMUZnWE4zNFpCVi1ZdTdjY1c4VjhYMkp5UjdNbzgzOXJ5S2ZiX3g5ZHZRbG5DMnl2TW0tTVZHZ3FBX0p1dmdYWWV4WVhUUQ?oc=5",
+      "publisher": "BBC",
+      "published_at": "Fri, 19 Dec 2025 08:00:00 GMT",
+      "paragraphs": [
+        "What we know about the Epstein files that the US is poised to release BBC"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiWkFVX3lxTE5lTWRxVmxfdmNra0tKMUZnWE4zNFpCVi1ZdTdjY1c4VjhYMkp5UjdNbzgzOXJ5S2ZiX3g5ZHZRbG5DMnl2TW0tTVZHZ3FBX0p1dmdYWWV4WVhUUQ&q=EgRnd_JzGI7D4tcGIjDqyyffeecTm422Ba-jgNFd-HXgWGR-RAyCTxWQZsdG7eNxCEkBuFKIjllh0lulI2QyAnJSWgFDYJPRv8m9pOHtWQ)",
+      "rss_summary": "What we know about the Epstein files that the US is poised to release BBC",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "Epstein files: ‘No one is too wealthy or too powerful to be above the law’; rights experts demand accountability - UN News",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB4WGl3c3p5QzJ6Sl81b0lIYVhSYlVMNkpiVWhxd01RLW5La3F0VHdja1hlcm1tMWJVNEFkTEpBeWZkNENkejdGRFpIcGRwMFhaNDFybl91RQ?oc=5",
+      "publisher": "UN News",
+      "published_at": "Tue, 17 Feb 2026 08:00:00 GMT",
+      "paragraphs": [
+        "Epstein files: ‘No one is too wealthy or too powerful to be above the law’; rights experts demand accountability UN News"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiV0FVX3lxTFB4WGl3c3p5QzJ6Sl81b0lIYVhSYlVMNkpiVWhxd01RLW5La3F0VHdja1hlcm1tMWJVNEFkTEpBeWZkNENkejdGRFpIcGRwMFhaNDFybl91RQ&q=EgRnd_JzGI7D4tcGIjDuh_hzqILv8Qug7yeWzfOyLDPdQB1sdGEQqEs0h6O3BhtwOwEjmOI7foiosu4J4kwyAnJSWgFDYMjd6unDlrPKMA)",
+      "rss_summary": "Epstein files: ‘No one is too wealthy or too powerful to be above the law’; rights experts demand accountability UN News",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "Epstein files fallout takes down elite figures in Europe, while U.S. reckoning is muted - NPR",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfQW5SYTRKMWpBWFUtX0JYTHE1YXZFU0lCbThPTXZoSm05Rlo5bG9sYk9GaHdBdVI3V0xFMGdPc3hzQ3NhLXBhNmRnU0NjTDRkNFNqZGdybnN1M3lPOEtHdU5DamZGNFlVZmszN3ZGelE4NzFDYXc?oc=5",
+      "publisher": "NPR",
+      "published_at": "Sat, 14 Feb 2026 08:00:00 GMT",
+      "paragraphs": [
+        "Epstein files fallout takes down elite figures in Europe, while U.S. reckoning is muted NPR"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMidkFVX3lxTFBfQW5SYTRKMWpBWFUtX0JYTHE1YXZFU0lCbThPTXZoSm05Rlo5bG9sYk9GaHdBdVI3V0xFMGdPc3hzQ3NhLXBhNmRnU0NjTDRkNFNqZGdybnN1M3lPOEtHdU5DamZGNFlVZmszN3ZGelE4NzFDYXc&q=EgRnd_JzGI_D4tcGIjDNH4xGwO8YmPGm7K40ifw-Rsp4RWh9PIYMUrC20iZr8FFsJl6LyH24-JAmMtGX8q4yAnJSWgFDYMPQ7MGSv67NqgE)",
+      "rss_summary": "Epstein files fallout takes down elite figures in Europe, while U.S. reckoning is muted NPR",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "A look at how the Epstein files dogged Pam Bondi's time as attorney general - PBS",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMWdad3Y0YXVIbFZkN2ltU04zTEhuaWhET05GQmFGblljVFA0Z0pYSkxlaWRwaE16SDVPc2VtN2lSUFBKQkp3X1UtQmpiSm5pR2REZTZlaDVGVTJBNDdHOEJHRV9WQS1jUEcxX2dYZDVXNjdONDRVZHBzWlNlWVNpMk5TelZ4S0NlMTQ0MVZuZ0J6WUhIM2JCVDNvVG16TWVILVY5X0NDcENpdFJzM0sxSXF30gG3AUFVX3lxTE42T0xYbEpGd0dZaHppcjBEcnRvc3UyRW16YTlNaTEyY2hjRWYxaEdiY3FqZHJzbmxxN2VJYm94bGRzTTh6SFlhMTBOekROT2Y3cHpvTWVfY0xfRS1uOWt0ODFGWDhnWm1DTEdYSTljSnpsVC16MzFUMUszb1NaRS1fT0NYUWdkUFY5S0tNOHZSMjBpTzZNSXdiZ2tfdGtOcElRQ2hqNkxHMkEzbEVHNnJsbVZsZ1ExMA?oc=5",
+      "publisher": "PBS",
+      "published_at": "Fri, 03 Apr 2026 07:00:00 GMT",
+      "paragraphs": [
+        "A look at how the Epstein files dogged Pam Bondi's time as attorney general PBS"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMisgFBVV95cUxNMWdad3Y0YXVIbFZkN2ltU04zTEhuaWhET05GQmFGblljVFA0Z0pYSkxlaWRwaE16SDVPc2VtN2lSUFBKQkp3X1UtQmpiSm5pR2REZTZlaDVGVTJBNDdHOEJHRV9WQS1jUEcxX2dYZDVXNjdONDRVZHBzWlNlWVNpMk5TelZ4S0NlMTQ0MVZuZ0J6WUhIM2JCVDNvVG16TWVILVY5X0NDcENpdFJzM0sxSXF30gG3AUFVX3lxTE42T0xYbEpGd0dZaHppcjBEcnRvc3UyRW16YTlNaTEyY2hjRWYxaEdiY3FqZHJzbmxxN2VJYm94bGRzTTh6SFlhMTBOekROT2Y3cHpvTWVfY0xfRS1uOWt0ODFGWDhnWm1DTEdYSTljSnpsVC16MzFUMUszb1NaRS1fT0NYUWdkUFY5S0tNOHZSMjBpTzZNSXdiZ2tfdGtOcElRQ2hqNkxHMkEzbEVHNnJsbVZsZ1ExMA&q=EgRnd_JzGI_D4tcGIjDy3rFHLhJcJHmk1UzacQoVh-WTrrvXS1sHKPAvLCNpy_TVkRArikc3loW0vn5swq8yAnJSWgFDYKOjtdTYgOrndA)",
+      "rss_summary": "A look at how the Epstein files dogged Pam Bondi's time as attorney general PBS",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "DOJ releases Epstein files containing sexual assault allegations against Trump - PBS",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZVpDQnlPdlJBaGhMY0x4MzZLd3ZhQzVoQmVrVzlaZ2huWlJBM3JtamZHZUdNa1JZNTE1T2RpY3FwVXM5VWhBU3lMOERDQkJ0ZndFUFh0YkVuX3pjR2ZUai1RN2N6SHAwdWY5LXF5bDJBazRyMm5rZ2FSUFlScUVuOGkyc3o5c0VNRXlLM3c0RU5ncm9CSVdqRWNRY0VyNmhzelBKblJYWHhWZUNaMkVCSUlB?oc=5",
+      "publisher": "PBS",
+      "published_at": "Fri, 06 Mar 2026 08:00:00 GMT",
+      "paragraphs": [
+        "DOJ releases Epstein files containing sexual assault allegations against Trump PBS"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMisgFBVV95cUxOZVpDQnlPdlJBaGhMY0x4MzZLd3ZhQzVoQmVrVzlaZ2huWlJBM3JtamZHZUdNa1JZNTE1T2RpY3FwVXM5VWhBU3lMOERDQkJ0ZndFUFh0YkVuX3pjR2ZUai1RN2N6SHAwdWY5LXF5bDJBazRyMm5rZ2FSUFlScUVuOGkyc3o5c0VNRXlLM3c0RU5ncm9CSVdqRWNRY0VyNmhzelBKblJYWHhWZUNaMkVCSUlB&q=EgRnd_JzGI_D4tcGIjASy3sTHDN_rsaRx4vdOkF-UEmN44yYZzdM-vBV2bpsL3B28qWztWe8U5NoEoglzf4yAnJSWgFDYIeH76KThdfNQw)",
+      "rss_summary": "DOJ releases Epstein files containing sexual assault allegations against Trump PBS",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "With few Epstein files released, conspiracy theories flourish and questions remain - NPR",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZnpseVR3MVZTYjg5anpBaEdTcHFGYzF6Zmx3UnlNWjFDd2RqWXhhMmRsZ3NVZXZVbUd4VEFtZmNNTGZMMFdHaHBMVDN3TFN0ZUNmX2xDbTZjZUFka3RWNERILVZyS0MydlY0S1JPLVN6cC1NX29uQURNb0RYY0hsME1YWG1oc3h1NTV5WjdHTlZUQQ?oc=5",
+      "publisher": "NPR",
+      "published_at": "Fri, 02 Jan 2026 08:00:00 GMT",
+      "paragraphs": [
+        "With few Epstein files released, conspiracy theories flourish and questions remain NPR"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMikgFBVV95cUxOZnpseVR3MVZTYjg5anpBaEdTcHFGYzF6Zmx3UnlNWjFDd2RqWXhhMmRsZ3NVZXZVbUd4VEFtZmNNTGZMMFdHaHBMVDN3TFN0ZUNmX2xDbTZjZUFka3RWNERILVZyS0MydlY0S1JPLVN6cC1NX29uQURNb0RYY0hsME1YWG1oc3h1NTV5WjdHTlZUQQ&q=EgRnd_JzGI_D4tcGIjCR1c8XowSbgDj-9WjPZ4IPW9O_zbjUUI9qlfmHiEm1Z_eLBjlpOrVHrqcTpTLYJYQyAnJSWgFDYNW00ZaQx8GLhAE)",
+      "rss_summary": "With few Epstein files released, conspiracy theories flourish and questions remain NPR",
+      "source_kind": "news search",
+      "reference_page": ""
+    },
+    {
+      "title": "All About the Epstein Files - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQekF0eEY0N1Uxc19OaGRTUUNNNVo1NG0wSGp1V2RqWFpUVTh5dDRRNzdfRVB3c2w3ZkZxOUlJcDJReTZra0MwamFxbXdQcjRCOEZ4b1lUeU5uZEJpOHZ6VndIbzFKVjZiMjQzcXhKZzBaYkFIU21hUC10Y2c2WTBUSDc4Vm05Z1NjRi0xdA?oc=5",
+      "publisher": "The New York Times",
+      "published_at": "Tue, 03 Feb 2026 08:00:00 GMT",
+      "paragraphs": [
+        "All About the Epstein Files The New York Times"
+      ],
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMijAFBVV95cUxQekF0eEY0N1Uxc19OaGRTUUNNNVo1NG0wSGp1V2RqWFpUVTh5dDRRNzdfRVB3c2w3ZkZxOUlJcDJReTZra0MwamFxbXdQcjRCOEZ4b1lUeU5uZEJpOHZ6VndIbzFKVjZiMjQzcXhKZzBaYkFIU21hUC10Y2c2WTBUSDc4Vm05Z1NjRi0xdA&q=EgRnd_JzGJDD4tcGIjCBos_y6d-LGRI5nmJw2xCDh-3VAVSqI6B7VORW140rbtzz1OOEcKsj7vMP5WaumH0yAnJSWgFDYKKfhceA0OfDJQ)",
+      "rss_summary": "All About the Epstein Files The New York Times",
+      "source_kind": "news search",
+      "reference_page": ""
+    }
+  ],
+  "source_details": [
+    {
+      "title": "Bondi No-Show Deepens Epstein Files Controversy As Lawmakers Accuse Ex-AG Of 'Cover-Up'",
+      "publisher": "Indiatimes",
+      "url": "https://timesofindia.indiatimes.com/videos/international/bondi-no-show-deepens-epstein-files-controversy-as-lawmakers-accuse-ex-ag-of-cover-up/videoshow/130293223.cms",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "16 Apr 2026, 04:00:00 AM",
+      "fetch_status": "ok",
+      "key_passages": [
+        "Gandhi listed several issues for discussion, including the financial system, the US deal, the Adani case and Jeffrey Epstein."
+      ]
+    },
+    {
+      "title": "Why DOJ Hasn’t Charged Anyone Else From the Epstein Files",
+      "publisher": "Politico",
+      "url": "https://www.politico.com/news/magazine/2026/03/11/epstein-files-justice-department-no-prosecutions-column-00821127",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Wed, 11 Mar 2026 01:45:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 403 Client Error: Forbidden for url: https://www.politico.com/news/magazine/2026/03/11/epstein-files-justice-department-no-prosecutions-column-00821127)",
+      "key_passages": [
+        "The release of the Epstein files was supposed to quell the controversy over whether the late convicted sex offender Jeffrey Epstein committed child sex crimes with a host of wealthy, prominent men."
+      ]
+    },
+    {
+      "title": "A look at how the Epstein files dogged Pam Bondi's time as attorney general | World News",
+      "publisher": "Hindustan Times",
+      "url": "https://www.hindustantimes.com/world-news/a-look-at-how-the-epstein-files-dogged-pam-bondis-time-as-attorney-general-101775198877781.html",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "2026-04-03T12:27:16+05:30",
+      "fetch_status": "ok",
+      "key_passages": [
+        "Trump had himself raised questions for some years after Epstein's 2019 death in jail as the financier faced federal sex trafficking charges .",
+        "At a congressional hearing, a combative Bondi tried to quell the Epstein files controversy .",
+        "Bondi demanded that the FBI give her “the full and complete Epstein files,” and she later said that she'd unearthed a \"truckload” of previously withheld material and that “everything is going to come out to the public.”",
+        "The furor over the “Epstein files,” as the trove of investigative records came to be known, wasn't the only controversy of Bondi's tenure.",
+        "Robert Glassman, an attorney for a woman who testified as “Jane” in the 2021 criminal trial of Epstein confidante Ghislaine Maxwell, noted that agency leaders come and go."
+      ]
+    },
+    {
+      "title": "A timeline of the controversy over the administration's handling of the Epstein files - NPR",
+      "publisher": "NPR",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVXhSSVdBM3YzNkJnaDV1eFZZR1ZOMWpvQnRySjVMUVR6QU0wMV9TOUdUTVpsclFycURlbzdLSEJVNm4wRHFUZC0xRkVwQkctd2JUa21xb1RXRTJkTWQ2MzVhRDBCZmpJbGY2ZkRMQzRULVRqMzlmSmVWYlgwN3B2UzExcS1oS3dVN2JBSnRmSFYtSTRuSVNkYUdFMXdodFFjckJJU3NFbUtENWZZek1xTHA4V2dhMHI5cS1JMXVKbUpPLWlVSk1vdw?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Thu, 17 Jul 2025 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiyAFBVV95cUxNVXhSSVdBM3YzNkJnaDV1eFZZR1ZOMWpvQnRySjVMUVR6QU0wMV9TOUdUTVpsclFycURlbzdLSEJVNm4wRHFUZC0xRkVwQkctd2JUa21xb1RXRTJkTWQ2MzVhRDBCZmpJbGY2ZkRMQzRULVRqMzlmSmVWYlgwN3B2UzExcS1oS3dVN2JBSnRmSFYtSTRuSVNkYUdFMXdodFFjckJJU3NFbUtENWZZek1xTHA4V2dhMHI5cS1JMXVKbUpPLWlVSk1vdw&q=EgRnd_JzGIvD4tcGIjDXw5y4WjLtKDUQ6vP7MWRiR_rWHhPUQ4o_JD-iuA8kta2hIbJtuqhZ76JDy70M3AoyAnJSWgFDYJzBho2J6-HLiwE)",
+      "key_passages": [
+        "A timeline of the controversy over the administration's handling of the Epstein files NPR"
+      ]
+    },
+    {
+      "title": "A timeline of the Jeffrey Epstein investigation and the fight to make the government's files public - PBS",
+      "publisher": "PBS",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVThDTHdGdVJiTGNDRmJQNURYWG9vYkR0Tkd1akhsM2MwNGd2UzhVVERUOHVSVVplbGg1VVBxSzZtV3pVWFZNaC04NmhpRnFDTVFJTE1MR3VubEpEWEZuNVZobkdmT0RQazU1dVlBcDZZWWtXV0hremVUbXVkU1VrdW56TG1EVEFmYzNOQ3d2cVRYQWdVVU9zdl8tMmdvSDYxeFhnc2d0blI1TDNlUXFfTDBTZDQwNWM4UktlaHJFbllKdGhtWE5qUXNwN1Jva241eEHSAdcBQVVfeXFMUGFTcnZ4QkpTWHdnY2Z0U1lxQzJmcWVtZG5QTXdNN2toU3JLSThsRHF3Sjl4THdUelpjUlgwQ3BQbjJ0RjlfYkRPTF9LR3VLS0pUQWstSTlYczJMSXJSMVMxSEpsUk9saFM5SVdFWDZydWE4WV82QTR1VHpIb0Q5anhkbFFpeVB1X0JjV3ZLZWp2R09JckF4Mmt4dGgwMW1tOHo3T3VndzRmUEN6c09qNmlGeEljNEpPWURacmZnaDhBendha2xLUVZJTkFMWndwMGUxX2pBUlE?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Fri, 06 Feb 2026 15:31:40 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMi0gFBVV95cUxNVThDTHdGdVJiTGNDRmJQNURYWG9vYkR0Tkd1akhsM2MwNGd2UzhVVERUOHVSVVplbGg1VVBxSzZtV3pVWFZNaC04NmhpRnFDTVFJTE1MR3VubEpEWEZuNVZobkdmT0RQazU1dVlBcDZZWWtXV0hremVUbXVkU1VrdW56TG1EVEFmYzNOQ3d2cVRYQWdVVU9zdl8tMmdvSDYxeFhnc2d0blI1TDNlUXFfTDBTZDQwNWM4UktlaHJFbllKdGhtWE5qUXNwN1Jva241eEHSAdcBQVVfeXFMUGFTcnZ4QkpTWHdnY2Z0U1lxQzJmcWVtZG5QTXdNN2toU3JLSThsRHF3Sjl4THdUelpjUlgwQ3BQbjJ0RjlfYkRPTF9LR3VLS0pUQWstSTlYczJMSXJSMVMxSEpsUk9saFM5SVdFWDZydWE4WV82QTR1VHpIb0Q5anhkbFFpeVB1X0JjV3ZLZWp2R09JckF4Mmt4dGgwMW1tOHo3T3VndzRmUEN6c09qNmlGeEljNEpPWURacmZnaDhBendha2xLUVZJTkFMWndwMGUxX2pBUlE&q=EgRnd_JzGIzD4tcGIjDDthjJm004knor1XJsAazAOb4YkTs45bsmLQ277IhuJaCDC5F7t7d4ztflwcttvwsyAnJSWgFDYMjN7o-_mr_LlgE)",
+      "key_passages": [
+        "A timeline of the Jeffrey Epstein investigation and the fight to make the government's files public PBS"
+      ]
+    },
+    {
+      "title": "US Epstein files full of famous names, but not Trump's - Reuters",
+      "publisher": "Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ3dFZmh2T2hfaVZwSWdsb19BQUREMVIwOUpUWDRfVGtFSE1aUk00M0xnQVJodklmek94d0wtNGtCUlpiM0JfVGY0NzZYQS1rdW9rbS1PUFFkNy1DakMxNUgtNlpkbk5hRkY2TkZBczhQd1hEQ3o1WU9rc0ZOX0JlNlZTLUtlN0NXdGdoeGNucVBRcmFIRFZ3SENDUjRhaGotbDN4ckpsajBMQkF4bmg3eVZnekx3Zw?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Sat, 20 Dec 2025 08:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMitgFBVV95cUxOQ3dFZmh2T2hfaVZwSWdsb19BQUREMVIwOUpUWDRfVGtFSE1aUk00M0xnQVJodklmek94d0wtNGtCUlpiM0JfVGY0NzZYQS1rdW9rbS1PUFFkNy1DakMxNUgtNlpkbk5hRkY2TkZBczhQd1hEQ3o1WU9rc0ZOX0JlNlZTLUtlN0NXdGdoeGNucVBRcmFIRFZ3SENDUjRhaGotbDN4ckpsajBMQkF4bmg3eVZnekx3Zw&q=EgRnd_JzGIzD4tcGIjDS_rBfXZQrz_7iTQ-nai48zaxpuFzq5ATBhzMKNXkKPUtQzeqNMsajla787C1VhMwyAnJSWgFDYLnf6pza4rfFOg)",
+      "key_passages": [
+        "US Epstein files full of famous names, but not Trump's Reuters"
+      ]
+    },
+    {
+      "title": "Democrats vow to fight ‘full-blown cover-up’ after release of Epstein files - The Guardian",
+      "publisher": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVExSZU13d1VMcGdiN1RubkdLN1prckhEd2tCNzlEeURrZEhXVzctWVhWc3NqZVVnczdlQ3FqOHdSMWFqNmtFcHU3YmwzRm5aU3R6WjJ4U2Jpamx6WnpoNy1rR0JnVTNIRVdlTC0yQXlCbmU2U2JxMlljalRFTU4wdFZvalp6cDFGNzVybUFhWG1DaFU?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Mon, 02 Feb 2026 08:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMikwFBVV95cUxQVExSZU13d1VMcGdiN1RubkdLN1prckhEd2tCNzlEeURrZEhXVzctWVhWc3NqZVVnczdlQ3FqOHdSMWFqNmtFcHU3YmwzRm5aU3R6WjJ4U2Jpamx6WnpoNy1rR0JnVTNIRVdlTC0yQXlCbmU2U2JxMlljalRFTU4wdFZvalp6cDFGNzVybUFhWG1DaFU&q=EgRnd_JzGIzD4tcGIjCp9vamMW2jTnuj8hOu0OmBeCYT5whSA6XQ9NshSejaOtnlP1gcxJ9Y2kPIGV5GUAkyAnJSWgFDYOCc4o2DuOGwTw)",
+      "key_passages": [
+        "Democrats vow to fight ‘full-blown cover-up’ after release of Epstein files The Guardian"
+      ]
+    },
+    {
+      "title": "The Epstein Files Timeline Raises Real Questions for Trump - Politico",
+      "publisher": "Politico",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZnFtdFo0dklrSGVvZkZHR20xdjlXRDNJQjJVUjJ6dWxMUWlaYXVVaDNUbG5IdmI0ZXRfdkJHMlNVb0pKcGt4WFdmYnlEU09tU1Q4WGlmWVV4Rm14cVdrS0tCaWVPa2VZSnJxVm5ZUi02QXJzNGc2WWpQN3FPSUdNbThEV0Q4VXU4Y1hHYWNPTjNnTnlvcHcxc3Bn?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Fri, 25 Jul 2025 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMimgFBVV95cUxOZnFtdFo0dklrSGVvZkZHR20xdjlXRDNJQjJVUjJ6dWxMUWlaYXVVaDNUbG5IdmI0ZXRfdkJHMlNVb0pKcGt4WFdmYnlEU09tU1Q4WGlmWVV4Rm14cVdrS0tCaWVPa2VZSnJxVm5ZUi02QXJzNGc2WWpQN3FPSUdNbThEV0Q4VXU4Y1hHYWNPTjNnTnlvcHcxc3Bn&q=EgRnd_JzGI3D4tcGIjAbiWrC7C81SnB8woKIDjiic1DNjw2wGB-wyTAecMX9HEe_kMYSUETLVzDI4H4rCXkyAnJSWgFDYO_5yu7kzfzaUg)",
+      "key_passages": [
+        "The Epstein Files Timeline Raises Real Questions for Trump Politico"
+      ]
+    },
+    {
+      "title": "Trump makes the Epstein files public. Here's a timeline of his shifting stance - NPR",
+      "publisher": "NPR",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRWdUTU9HWHR0eDZHSlpzekVYM2d0eHJMLWlydmIza1JJOWtIREltME5XUjZVSlI2a3FCbUpqR1pHRkFfdlI5RlRsb1R4MEFkdkxLZFgzdVlsV2RBRGJ6YW1SVy1RRWl6ZnZzbzBIU3kzd180TjkxeVUzYklHcnJxTHU4bUdFR3pDbkVVSWtISQ?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Fri, 22 Aug 2025 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMijwFBVV95cUxNRWdUTU9HWHR0eDZHSlpzekVYM2d0eHJMLWlydmIza1JJOWtIREltME5XUjZVSlI2a3FCbUpqR1pHRkFfdlI5RlRsb1R4MEFkdkxLZFgzdVlsV2RBRGJ6YW1SVy1RRWl6ZnZzbzBIU3kzd180TjkxeVUzYklHcnJxTHU4bUdFR3pDbkVVSWtISQ&q=EgRnd_JzGI3D4tcGIjA94UNTIcjWqoDBCGDl9CEj0ikRUIYNxn1MTqRo1baX4YtaJ1262UkWIIlMTTa3hMMyAnJSWgFDYPn6pYTAwanEdg)",
+      "key_passages": []
+    },
+    {
+      "title": "The Epstein Files: A Timeline - The New York Times",
+      "publisher": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42dUNVZ0Ffb0hBSmhXLVRGX1FPcHZMV3p3UW9MWHl1VnpmVEUxeEFWNEJFWm5Bd3E2cWxVM2NGZThXLTEzT2tRRXNOOVZ5NHFHMzFYLUEwWndqSmNSVlVTaEdDX1ZaT3h6VG03cmRtYV9rNUxXVm14TmtPYw?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Mon, 16 Mar 2026 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMie0FVX3lxTE42dUNVZ0Ffb0hBSmhXLVRGX1FPcHZMV3p3UW9MWHl1VnpmVEUxeEFWNEJFWm5Bd3E2cWxVM2NGZThXLTEzT2tRRXNOOVZ5NHFHMzFYLUEwWndqSmNSVlVTaEdDX1ZaT3h6VG03cmRtYV9rNUxXVm14TmtPYw&q=EgRnd_JzGI3D4tcGIjB6UfdHdZ8Y48ft5G55Zogt6e6zZi50iCJ3vnGqv4riVKb5tJwAtL3wz84_7FkTBS8yAnJSWgFDYIPNpPKdyorQxgE)",
+      "key_passages": []
+    },
+    {
+      "title": "Epstein files take back seat in midterms but experts say issue has not gone away - The Guardian",
+      "publisher": "The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51ZGlydVlkeUlWdW82bEdOZmdVTDBRU1RkSk1MWURCUE9zcG9adFIyYWVkN0dVb2ZYbXpwNUJiNmlJRzlqQjdpbG14R19rQUpMdUJkcXhPMW1EV2ZNdmp0ajN5S3k1X2l4Y08xRUJwVXl6ZURFUmhPYXZ3?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Sat, 24 Oct 2026 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiekFVX3lxTE51ZGlydVlkeUlWdW82bEdOZmdVTDBRU1RkSk1MWURCUE9zcG9adFIyYWVkN0dVb2ZYbXpwNUJiNmlJRzlqQjdpbG14R19rQUpMdUJkcXhPMW1EV2ZNdmp0ajN5S3k1X2l4Y08xRUJwVXl6ZURFUmhPYXZ3&q=EgRnd_JzGI7D4tcGIjC4VzlE4Oa4Lbd8CaQvVTFC4Fb6qqZm7FsWNQyC78obyZy-ToMgUTqYFGtBTRmNWvQyAnJSWgFDYKySxZyVwP2RggE)",
+      "key_passages": [
+        "Epstein files take back seat in midterms but experts say issue has not gone away The Guardian"
+      ]
+    },
+    {
+      "title": "Inside the White House Freakout Over the Epstein Files - The New York Times",
+      "publisher": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcFpnQ0x1NmFMR25QV3I1cnI1aXI4ekhxQmstMFQ5Y3pxQ0x1eVR2S1RZdU1DZ2pKdlp4bVIycnRxc0RMWWtVRG5JQUdYM2MzZ1AxQ1NKc0JaYUh6Tk9zVFZuWGEyZ0hvS3Q3WjJ0b205U0E1a25NZUdGSHpiX0gycmhoWGRzdng2Q244VVhPbmtoZS0x?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Wed, 10 Jun 2026 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMilAFBVV95cUxPcFpnQ0x1NmFMR25QV3I1cnI1aXI4ekhxQmstMFQ5Y3pxQ0x1eVR2S1RZdU1DZ2pKdlp4bVIycnRxc0RMWWtVRG5JQUdYM2MzZ1AxQ1NKc0JaYUh6Tk9zVFZuWGEyZ0hvS3Q3WjJ0b205U0E1a25NZUdGSHpiX0gycmhoWGRzdng2Q244VVhPbmtoZS0x&q=EgRnd_JzGI7D4tcGIjD3jbeWEdhyIfz2-uZZ7x_jdhgvTScq1sl7FTr0AHpaUBSeVlf_WfoP4r-6e8lbKsoyAnJSWgFDYMP1nuSr_PzX1AE)",
+      "key_passages": [
+        "Inside the White House Freakout Over the Epstein Files The New York Times"
+      ]
+    },
+    {
+      "title": "6 Takeaways From the Story of How the Epstein Files Paralyzed the White House - The New York Times",
+      "publisher": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNDB1Y2lwaEU4SXR3R2d0TTFjV1hZM2pFQjh4OWNzVFRFUDZrc1prTGUxbk9mWjBSX19hbjh2amdGTWcyVjI1WVBhYXFPOFV2dEp4UkZFdjM3QXQ0N3J6Nm9RTmVTNFI3TTZJTm1uWUlyUWlLWE41UzZWM21sbzlVeVBoWnVTbGg0VUEydlhKd1JWQkFE?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Wed, 10 Jun 2026 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMilAFBVV95cUxNNDB1Y2lwaEU4SXR3R2d0TTFjV1hZM2pFQjh4OWNzVFRFUDZrc1prTGUxbk9mWjBSX19hbjh2amdGTWcyVjI1WVBhYXFPOFV2dEp4UkZFdjM3QXQ0N3J6Nm9RTmVTNFI3TTZJTm1uWUlyUWlLWE41UzZWM21sbzlVeVBoWnVTbGg0VUEydlhKd1JWQkFE&q=EgRnd_JzGI7D4tcGIjCmbDeFWB96EWOUDG1gRbmXK9Zr8zLhWHcLeGu4zpuFCWVn29alKw92LFXsEwYnnOgyAnJSWgFDYL7j2cD-z8ar8AE)",
+      "key_passages": [
+        "6 Takeaways From the Story of How the Epstein Files Paralyzed the White House The New York Times"
+      ]
+    },
+    {
+      "title": "What we know about the Epstein files that the US is poised to release - BBC",
+      "publisher": "BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lTWRxVmxfdmNra0tKMUZnWE4zNFpCVi1ZdTdjY1c4VjhYMkp5UjdNbzgzOXJ5S2ZiX3g5ZHZRbG5DMnl2TW0tTVZHZ3FBX0p1dmdYWWV4WVhUUQ?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Fri, 19 Dec 2025 08:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiWkFVX3lxTE5lTWRxVmxfdmNra0tKMUZnWE4zNFpCVi1ZdTdjY1c4VjhYMkp5UjdNbzgzOXJ5S2ZiX3g5ZHZRbG5DMnl2TW0tTVZHZ3FBX0p1dmdYWWV4WVhUUQ&q=EgRnd_JzGI7D4tcGIjDqyyffeecTm422Ba-jgNFd-HXgWGR-RAyCTxWQZsdG7eNxCEkBuFKIjllh0lulI2QyAnJSWgFDYJPRv8m9pOHtWQ)",
+      "key_passages": [
+        "What we know about the Epstein files that the US is poised to release BBC"
+      ]
+    },
+    {
+      "title": "Epstein files: ‘No one is too wealthy or too powerful to be above the law’; rights experts demand accountability - UN News",
+      "publisher": "UN News",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB4WGl3c3p5QzJ6Sl81b0lIYVhSYlVMNkpiVWhxd01RLW5La3F0VHdja1hlcm1tMWJVNEFkTEpBeWZkNENkejdGRFpIcGRwMFhaNDFybl91RQ?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Tue, 17 Feb 2026 08:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMiV0FVX3lxTFB4WGl3c3p5QzJ6Sl81b0lIYVhSYlVMNkpiVWhxd01RLW5La3F0VHdja1hlcm1tMWJVNEFkTEpBeWZkNENkejdGRFpIcGRwMFhaNDFybl91RQ&q=EgRnd_JzGI7D4tcGIjDuh_hzqILv8Qug7yeWzfOyLDPdQB1sdGEQqEs0h6O3BhtwOwEjmOI7foiosu4J4kwyAnJSWgFDYMjd6unDlrPKMA)",
+      "key_passages": [
+        "Epstein files: ‘No one is too wealthy or too powerful to be above the law’; rights experts demand accountability UN News"
+      ]
+    },
+    {
+      "title": "Epstein files fallout takes down elite figures in Europe, while U.S. reckoning is muted - NPR",
+      "publisher": "NPR",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfQW5SYTRKMWpBWFUtX0JYTHE1YXZFU0lCbThPTXZoSm05Rlo5bG9sYk9GaHdBdVI3V0xFMGdPc3hzQ3NhLXBhNmRnU0NjTDRkNFNqZGdybnN1M3lPOEtHdU5DamZGNFlVZmszN3ZGelE4NzFDYXc?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Sat, 14 Feb 2026 08:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMidkFVX3lxTFBfQW5SYTRKMWpBWFUtX0JYTHE1YXZFU0lCbThPTXZoSm05Rlo5bG9sYk9GaHdBdVI3V0xFMGdPc3hzQ3NhLXBhNmRnU0NjTDRkNFNqZGdybnN1M3lPOEtHdU5DamZGNFlVZmszN3ZGelE4NzFDYXc&q=EgRnd_JzGI_D4tcGIjDNH4xGwO8YmPGm7K40ifw-Rsp4RWh9PIYMUrC20iZr8FFsJl6LyH24-JAmMtGX8q4yAnJSWgFDYMPQ7MGSv67NqgE)",
+      "key_passages": [
+        "Epstein files fallout takes down elite figures in Europe, while U.S. reckoning is muted NPR"
+      ]
+    },
+    {
+      "title": "A look at how the Epstein files dogged Pam Bondi's time as attorney general - PBS",
+      "publisher": "PBS",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMWdad3Y0YXVIbFZkN2ltU04zTEhuaWhET05GQmFGblljVFA0Z0pYSkxlaWRwaE16SDVPc2VtN2lSUFBKQkp3X1UtQmpiSm5pR2REZTZlaDVGVTJBNDdHOEJHRV9WQS1jUEcxX2dYZDVXNjdONDRVZHBzWlNlWVNpMk5TelZ4S0NlMTQ0MVZuZ0J6WUhIM2JCVDNvVG16TWVILVY5X0NDcENpdFJzM0sxSXF30gG3AUFVX3lxTE42T0xYbEpGd0dZaHppcjBEcnRvc3UyRW16YTlNaTEyY2hjRWYxaEdiY3FqZHJzbmxxN2VJYm94bGRzTTh6SFlhMTBOekROT2Y3cHpvTWVfY0xfRS1uOWt0ODFGWDhnWm1DTEdYSTljSnpsVC16MzFUMUszb1NaRS1fT0NYUWdkUFY5S0tNOHZSMjBpTzZNSXdiZ2tfdGtOcElRQ2hqNkxHMkEzbEVHNnJsbVZsZ1ExMA?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Fri, 03 Apr 2026 07:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMisgFBVV95cUxNMWdad3Y0YXVIbFZkN2ltU04zTEhuaWhET05GQmFGblljVFA0Z0pYSkxlaWRwaE16SDVPc2VtN2lSUFBKQkp3X1UtQmpiSm5pR2REZTZlaDVGVTJBNDdHOEJHRV9WQS1jUEcxX2dYZDVXNjdONDRVZHBzWlNlWVNpMk5TelZ4S0NlMTQ0MVZuZ0J6WUhIM2JCVDNvVG16TWVILVY5X0NDcENpdFJzM0sxSXF30gG3AUFVX3lxTE42T0xYbEpGd0dZaHppcjBEcnRvc3UyRW16YTlNaTEyY2hjRWYxaEdiY3FqZHJzbmxxN2VJYm94bGRzTTh6SFlhMTBOekROT2Y3cHpvTWVfY0xfRS1uOWt0ODFGWDhnWm1DTEdYSTljSnpsVC16MzFUMUszb1NaRS1fT0NYUWdkUFY5S0tNOHZSMjBpTzZNSXdiZ2tfdGtOcElRQ2hqNkxHMkEzbEVHNnJsbVZsZ1ExMA&q=EgRnd_JzGI_D4tcGIjDy3rFHLhJcJHmk1UzacQoVh-WTrrvXS1sHKPAvLCNpy_TVkRArikc3loW0vn5swq8yAnJSWgFDYKOjtdTYgOrndA)",
+      "key_passages": [
+        "A look at how the Epstein files dogged Pam Bondi's time as attorney general PBS"
+      ]
+    },
+    {
+      "title": "DOJ releases Epstein files containing sexual assault allegations against Trump - PBS",
+      "publisher": "PBS",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZVpDQnlPdlJBaGhMY0x4MzZLd3ZhQzVoQmVrVzlaZ2huWlJBM3JtamZHZUdNa1JZNTE1T2RpY3FwVXM5VWhBU3lMOERDQkJ0ZndFUFh0YkVuX3pjR2ZUai1RN2N6SHAwdWY5LXF5bDJBazRyMm5rZ2FSUFlScUVuOGkyc3o5c0VNRXlLM3c0RU5ncm9CSVdqRWNRY0VyNmhzelBKblJYWHhWZUNaMkVCSUlB?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Fri, 06 Mar 2026 08:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMisgFBVV95cUxOZVpDQnlPdlJBaGhMY0x4MzZLd3ZhQzVoQmVrVzlaZ2huWlJBM3JtamZHZUdNa1JZNTE1T2RpY3FwVXM5VWhBU3lMOERDQkJ0ZndFUFh0YkVuX3pjR2ZUai1RN2N6SHAwdWY5LXF5bDJBazRyMm5rZ2FSUFlScUVuOGkyc3o5c0VNRXlLM3c0RU5ncm9CSVdqRWNRY0VyNmhzelBKblJYWHhWZUNaMkVCSUlB&q=EgRnd_JzGI_D4tcGIjASy3sTHDN_rsaRx4vdOkF-UEmN44yYZzdM-vBV2bpsL3B28qWztWe8U5NoEoglzf4yAnJSWgFDYIeH76KThdfNQw)",
+      "key_passages": [
+        "DOJ releases Epstein files containing sexual assault allegations against Trump PBS"
+      ]
+    },
+    {
+      "title": "With few Epstein files released, conspiracy theories flourish and questions remain - NPR",
+      "publisher": "NPR",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZnpseVR3MVZTYjg5anpBaEdTcHFGYzF6Zmx3UnlNWjFDd2RqWXhhMmRsZ3NVZXZVbUd4VEFtZmNNTGZMMFdHaHBMVDN3TFN0ZUNmX2xDbTZjZUFka3RWNERILVZyS0MydlY0S1JPLVN6cC1NX29uQURNb0RYY0hsME1YWG1oc3h1NTV5WjdHTlZUQQ?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Fri, 02 Jan 2026 08:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMikgFBVV95cUxOZnpseVR3MVZTYjg5anpBaEdTcHFGYzF6Zmx3UnlNWjFDd2RqWXhhMmRsZ3NVZXZVbUd4VEFtZmNNTGZMMFdHaHBMVDN3TFN0ZUNmX2xDbTZjZUFka3RWNERILVZyS0MydlY0S1JPLVN6cC1NX29uQURNb0RYY0hsME1YWG1oc3h1NTV5WjdHTlZUQQ&q=EgRnd_JzGI_D4tcGIjCR1c8XowSbgDj-9WjPZ4IPW9O_zbjUUI9qlfmHiEm1Z_eLBjlpOrVHrqcTpTLYJYQyAnJSWgFDYNW00ZaQx8GLhAE)",
+      "key_passages": [
+        "With few Epstein files released, conspiracy theories flourish and questions remain NPR"
+      ]
+    },
+    {
+      "title": "All About the Epstein Files - The New York Times",
+      "publisher": "The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQekF0eEY0N1Uxc19OaGRTUUNNNVo1NG0wSGp1V2RqWFpUVTh5dDRRNzdfRVB3c2w3ZkZxOUlJcDJReTZra0MwamFxbXdQcjRCOEZ4b1lUeU5uZEJpOHZ6VndIbzFKVjZiMjQzcXhKZzBaYkFIU21hUC10Y2c2WTBUSDc4Vm05Z1NjRi0xdA?oc=5",
+      "source_kind": "news search",
+      "reference_page": "",
+      "published_at": "Tue, 03 Feb 2026 08:00:00 GMT",
+      "fetch_status": "rss_summary_only (article link failed: 429 Client Error: Too Many Requests for url: https://www.google.com/sorry/index?continue=https://news.google.com/articles/CBMijAFBVV95cUxQekF0eEY0N1Uxc19OaGRTUUNNNVo1NG0wSGp1V2RqWFpUVTh5dDRRNzdfRVB3c2w3ZkZxOUlJcDJReTZra0MwamFxbXdQcjRCOEZ4b1lUeU5uZEJpOHZ6VndIbzFKVjZiMjQzcXhKZzBaYkFIU21hUC10Y2c2WTBUSDc4Vm05Z1NjRi0xdA&q=EgRnd_JzGJDD4tcGIjCBos_y6d-LGRI5nmJw2xCDh-3VAVSqI6B7VORW140rbtzz1OOEcKsj7vMP5WaumH0yAnJSWgFDYKKfhceA0OfDJQ)",
+      "key_passages": []
+    }
+  ],
+  "timeline": [
+    {
+      "event_date": "2008",
+      "date_precision": "year",
+      "event": "The records pulled back a curtain on favor-trading and frank communications in a chummy elite that looked past Epstein's 2008 guilty plea to solicitating prostitution from an underage girl in Florida.",
+      "context": "The records pulled back a curtain on favor-trading and frank communications in a chummy elite that looked past Epstein's 2008 guilty plea to solicitating prostitution from an underage girl in Florida. Some high-flying Epstein friends resigned or lost jobs in corporate America , academia , big law firms , the British , Slovakian and Norwegian governments and beyond.",
+      "evidence": "The records pulled back a curtain on favor-trading and frank communications in a chummy elite that looked past Epstein's 2008 guilty plea to solicitating prostitution from an underage girl in Florida.",
+      "source_title": "A look at how the Epstein files dogged Pam Bondi's time as attorney general | World News",
+      "publisher": "Hindustan Times",
+      "source_url": "https://www.hindustantimes.com/world-news/a-look-at-how-the-epstein-files-dogged-pam-bondis-time-as-attorney-general-101775198877781.html",
+      "source_kind": "news search",
+      "reference_page": "",
+      "article_published_at": "2026-04-03T12:27:16+05:30",
+      "date_basis": "explicit year only",
+      "evidence_review": "supported by extracted source text",
+      "date_conflict": [
+        "2008",
+        "2019",
+        "2019-04-14",
+        "2021"
+      ],
+      "date_conflict_review": "Potentially related sources report different dates; review the cited evidence.",
+      "sources": [
+        {
+          "publisher": "Hindustan Times",
+          "source_title": "A look at how the Epstein files dogged Pam Bondi's time as attorney general | World News",
+          "source_url": "https://www.hindustantimes.com/world-news/a-look-at-how-the-epstein-files-dogged-pam-bondis-time-as-attorney-general-101775198877781.html",
+          "article_published_at": "2026-04-03T12:27:16+05:30",
+          "evidence": "The records pulled back a curtain on favor-trading and frank communications in a chummy elite that looked past Epstein's 2008 guilty plea to solicitating prostitution from an underage girl in Florida.",
+          "source_kind": "news search",
+          "reference_page": ""
+        }
+      ]
+    },
+    {
+      "event_date": "2019",
+      "date_precision": "year",
+      "event": "Trump had himself raised questions for some years after Epstein's 2019 death in jail as the financier faced federal sex trafficking charges .",
+      "context": "Trump had himself raised questions for some years after Epstein's 2019 death in jail as the financier faced federal sex trafficking charges . After the Justice Department memo, however, the president suggested there was nothing more to say about Epstein and the country, including his own supporters , should simply move on.",
+      "evidence": "Trump had himself raised questions for some years after Epstein's 2019 death in jail as the financier faced federal sex trafficking charges .",
+      "source_title": "A look at how the Epstein files dogged Pam Bondi's time as attorney general | World News",
+      "publisher": "Hindustan Times",
+      "source_url": "https://www.hindustantimes.com/world-news/a-look-at-how-the-epstein-files-dogged-pam-bondis-time-as-attorney-general-101775198877781.html",
+      "source_kind": "news search",
+      "reference_page": "",
+      "article_published_at": "2026-04-03T12:27:16+05:30",
+      "date_basis": "explicit year only",
+      "evidence_review": "supported by extracted source text",
+      "date_conflict": [
+        "2008",
+        "2019",
+        "2019-04-14",
+        "2021"
+      ],
+      "date_conflict_review": "Potentially related sources report different dates; review the cited evidence.",
+      "sources": [
+        {
+          "publisher": "Hindustan Times",
+          "source_title": "A look at how the Epstein files dogged Pam Bondi's time as attorney general | World News",
+          "source_url": "https://www.hindustantimes.com/world-news/a-look-at-how-the-epstein-files-dogged-pam-bondis-time-as-attorney-general-101775198877781.html",
+          "article_published_at": "2026-04-03T12:27:16+05:30",
+          "evidence": "Trump had himself raised questions for some years after Epstein's 2019 death in jail as the financier faced federal sex trafficking charges .",
+          "source_kind": "news search",
+          "reference_page": ""
+        }
+      ]
+    },
+    {
+      "event_date": "2019-04-14",
+      "date_precision": "day",
+      "event": "The House Committee on Oversight and Government Reform subpoenaed Bondi to answer questions on April 14 about the Justice Department’s handling of the Epstein investigation and file release.",
+      "context": "The House Committee on Oversight and Government Reform subpoenaed Bondi to answer questions on April 14 about the Justice Department’s handling of the Epstein investigation and file release. With five Republicans joining Democrats to support the subpoena, it reflected widespread discontent, including in the GOP base, over Bondi’s management of the matter.",
+      "evidence": "The House Committee on Oversight and Government Reform subpoenaed Bondi to answer questions on April 14 about the Justice Department’s handling of the Epstein investigation and file release.",
+      "source_title": "A look at how the Epstein files dogged Pam Bondi's time as attorney general | World News",
+      "publisher": "Hindustan Times",
+      "source_url": "https://www.hindustantimes.com/world-news/a-look-at-how-the-epstein-files-dogged-pam-bondis-time-as-attorney-general-101775198877781.html",
+      "source_kind": "news search",
+      "reference_page": "",
+      "article_published_at": "2026-04-03T12:27:16+05:30",
+      "date_basis": "month/day; year inferred from source context (2019)",
+      "evidence_review": "supported by extracted source text",
+      "date_conflict": [
+        "2008",
+        "2019",
+        "2019-04-14",
+        "2021"
+      ],
+      "date_conflict_review": "Potentially related sources report different dates; review the cited evidence.",
+      "sources": [
+        {
+          "publisher": "Hindustan Times",
+          "source_title": "A look at how the Epstein files dogged Pam Bondi's time as attorney general | World News",
+          "source_url": "https://www.hindustantimes.com/world-news/a-look-at-how-the-epstein-files-dogged-pam-bondis-time-as-attorney-general-101775198877781.html",
+          "article_published_at": "2026-04-03T12:27:16+05:30",
+          "evidence": "The House Committee on Oversight and Government Reform subpoenaed Bondi to answer questions on April 14 about the Justice Department’s handling of the Epstein investigation and file release.",
+          "source_kind": "news search",
+          "reference_page": ""
+        }
+      ]
+    },
+    {
+      "event_date": "2021",
+      "date_precision": "year",
+      "event": "Robert Glassman, an attorney for a woman who testified as “Jane” in the 2021 criminal trial of Epstein confidante Ghislaine Maxwell, noted that agency leaders come and go.",
+      "context": "Robert Glassman, an attorney for a woman who testified as “Jane” in the 2021 criminal trial of Epstein confidante Ghislaine Maxwell, noted that agency leaders come and go.",
+      "evidence": "Robert Glassman, an attorney for a woman who testified as “Jane” in the 2021 criminal trial of Epstein confidante Ghislaine Maxwell, noted that agency leaders come and go.",
+      "source_title": "A look at how the Epstein files dogged Pam Bondi's time as attorney general | World News",
+      "publisher": "Hindustan Times",
+      "source_url": "https://www.hindustantimes.com/world-news/a-look-at-how-the-epstein-files-dogged-pam-bondis-time-as-attorney-general-101775198877781.html",
+      "source_kind": "news search",
+      "reference_page": "",
+      "article_published_at": "2026-04-03T12:27:16+05:30",
+      "date_basis": "explicit year only",
+      "evidence_review": "supported by extracted source text",
+      "date_conflict": [
+        "2008",
+        "2019",
+        "2019-04-14",
+        "2021"
+      ],
+      "date_conflict_review": "Potentially related sources report different dates; review the cited evidence.",
+      "sources": [
+        {
+          "publisher": "Hindustan Times",
+          "source_title": "A look at how the Epstein files dogged Pam Bondi's time as attorney general | World News",
+          "source_url": "https://www.hindustantimes.com/world-news/a-look-at-how-the-epstein-files-dogged-pam-bondis-time-as-attorney-general-101775198877781.html",
+          "article_published_at": "2026-04-03T12:27:16+05:30",
+          "evidence": "Robert Glassman, an attorney for a woman who testified as “Jane” in the 2021 criminal trial of Epstein confidante Ghislaine Maxwell, noted that agency leaders come and go.",
+          "source_kind": "news search",
+          "reference_page": ""
+        }
+      ]
+    }
+  ],
+  "overview": "**In 2008:** The records pulled back a curtain on favor-trading and frank communications in a chummy elite that looked past Epstein's 2008 guilty plea to solicitating prostitution from an underage girl in Florida. Some high-flying Epstein friends resigned or lost jobs in corporate America , academia , big law firms , the British , Slovakian and Norwegian governments and beyond. [Hindustan Times](https://www.hindustantimes.com/world-news/a-look-at-how-the-epstein-files-dogged-pam-bondis-time-as-attorney-general-101775198877781.html)\n\n**In 2019:** Trump had himself raised questions for some years after Epstein's 2019 death in jail as the financier faced federal sex trafficking charges . After the Justice Department memo, however, the president suggested there was nothing more to say about Epstein and the country, including his own supporters , should simply move on. [Hindustan Times](https://www.hindustantimes.com/world-news/a-look-at-how-the-epstein-files-dogged-pam-bondis-time-as-attorney-general-101775198877781.html)\n\n**On 2019-04-14:** The House Committee on Oversight and Government Reform subpoenaed Bondi to answer questions on April 14 about the Justice Department’s handling of the Epstein investigation and file release. With five Republicans joining Democrats to support the subpoena, it reflected widespread discontent, including in the GOP base, over Bondi’s management of the matter. [Hindustan Times](https://www.hindustantimes.com/world-news/a-look-at-how-the-epstein-files-dogged-pam-bondis-time-as-attorney-general-101775198877781.html)\n\n**In 2021:** Robert Glassman, an attorney for a woman who testified as “Jane” in the 2021 criminal trial of Epstein confidante Ghislaine Maxwell, noted that agency leaders come and go. [Hindustan Times](https://www.hindustantimes.com/world-news/a-look-at-how-the-epstein-files-dogged-pam-bondis-time-as-attorney-general-101775198877781.html)"
+}
