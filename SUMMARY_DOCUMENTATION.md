@@ -35,7 +35,7 @@ No AI API key is required. The overview and timeline are assembled directly from
 10. **TimelineEditor** orders and merges supported events while preserving citations.
 11. **ReportWriterAgent** writes the evidence-backed overview and report.
 
-The orchestrator delegates tasks to specialized agents and includes the run trace in the JSON output. These are independent, rule-based software agents; no hosted language model or AI API key is used. The topic argument is free-form. Discovery makes searches from the entered topic, and relevance checks compare source text with the topic terms rather than relying on a list of known events.
+Each agent lives in its own module under `research_agents/`. `research_agents/research_pipeline.py` coordinates the workflow and passes each stage's results to the next. `topic_timeline.py` remains the command-line entry point for compatibility. The orchestrator delegates tasks to specialized agents and includes the run trace in the JSON output. These are independent, rule-based software agents; no hosted language model or AI API key is used. The topic argument is free-form. Discovery makes searches from the entered topic, and relevance checks compare source text with the topic terms rather than relying on a list of known events.
 
 ## Scope and limitations
 
@@ -48,4 +48,4 @@ The orchestrator delegates tasks to specialized agents and includes the run trac
 
 ## Existing SVB preprocessing demo
 
-`pipeline.py` continues to run the original fixed-topic scraper, preprocessing, and TF-IDF similarity demonstration. Its vectors are TF-IDF features rather than general-purpose semantic embeddings. The topic-to-timeline workflow is implemented separately in `topic_timeline.py`.
+`pipeline.py` continues to run the original fixed-topic scraper, preprocessing, and TF-IDF similarity demonstration. Its vectors are TF-IDF features rather than general-purpose semantic embeddings. The topic-to-timeline workflow is implemented in the `research_agents/` package and launched through `topic_timeline.py`.

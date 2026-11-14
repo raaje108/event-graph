@@ -36,6 +36,32 @@ No LLM API key is required. The output links dated statements to the page text u
 
 More detail is in [SUMMARY_DOCUMENTATION.md](SUMMARY_DOCUMENTATION.md).
 
+## Code layout
+
+Each agent has its own module under `research_agents/`. `research_agents/research_pipeline.py` coordinates the agents and passes their outputs through discovery, scraping, extraction, review, and reporting. `topic_timeline.py` remains the compatible command-line launcher.
+
+```text
+research_agents/
+  research_planner_agent.py
+  news_search_agent.py
+  wikipedia_reference_agent.py
+  source_quality_agent.py
+  source_research_orchestrator_agent.py
+  page_reader.py
+  article_scraper_agent.py
+  article_context_agent.py
+  event_extractor.py
+  timeline_analyst_agent.py
+  topic_relevance_agent.py
+  evidence_reviewer_agent.py
+  event_conflict_reviewer_agent.py
+  timeline_editor.py
+  report_writer_agent.py
+  research_pipeline.py
+  models.py
+  constants.py
+```
+
 ## Existing NLP coursework artifacts
 
 The folder also includes the original SVB scraping, preprocessing, TF-IDF/vector preparation pipeline, sample datasets and reports, and notebooks. These artifacts are included in the repository.
