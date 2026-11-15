@@ -19,6 +19,16 @@ python topic_timeline.py "Ayodhya land dispute" --output ayodhya_timeline.md --j
 
 No LLM API key is required. The output links dated statements to the page text used as evidence. Wikipedia article text can provide historical chronology, with linked publisher references listed separately. Search snippets and headlines are not treated as evidence for timeline events.
 
+## Web interface
+
+Start the local EventGraph interface with:
+
+```powershell
+python web_app.py
+```
+
+Then open [http://127.0.0.1:8000](http://127.0.0.1:8000). Enter a topic to launch the same multi-agent research pipeline. The graph connects dated events in chronological order; select a node to read its context and open its evidence links. Use `Ctrl+C` in the terminal to stop the local server. The server binds to localhost by default.
+
 ## Agents
 
 - `ResearchPlannerAgent` creates topic-specific search queries.
@@ -41,6 +51,11 @@ More detail is in [SUMMARY_DOCUMENTATION.md](SUMMARY_DOCUMENTATION.md).
 Each agent has its own module under `research_agents/`. `research_agents/research_pipeline.py` coordinates the agents and passes their outputs through discovery, scraping, extraction, review, and reporting. `topic_timeline.py` remains the compatible command-line launcher.
 
 ```text
+web_app.py
+web/
+  index.html
+  app.css
+  app.js
 research_agents/
   research_planner_agent.py
   news_search_agent.py

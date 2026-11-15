@@ -21,6 +21,10 @@ The report defaults to `research_timeline.md`. The optional JSON file retains ev
 
 No AI API key is required. The overview and timeline are assembled directly from the scraped article sentences and linked to the pages they came from.
 
+## Local EventGraph web interface
+
+Run `python web_app.py` and open `http://127.0.0.1:8000`. The browser app posts a topic to the local Python server, which runs the existing research pipeline in a background worker and returns reviewed event/source data. The UI draws a horizontally connected chronological graph; selecting an event shows its full extracted context and evidence links. The server binds only to localhost by default and uses the Python standard library web server, so no extra framework or AI key is required.
+
 ## Multi-agent workflow
 
 1. **ResearchPlannerAgent** turns the topic into multiple search tasks.

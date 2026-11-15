@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101311">
+  <title>EventGraph — Research, connected</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/app.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="EventGraph home">
+      <span class="brand-mark"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M8 25 17 10l11 15M8 25h20M17 10l2 15"/><circle cx="8" cy="25" r="3"/><circle cx="17" cy="10" r="3"/><circle cx="28" cy="25" r="3"/><circle cx="19" cy="25" r="3"/></svg></span>
+      <span>event<span class="brand-light">graph</span></span>
+    </a>
+    <div class="topbar-right"><span class="status-dot"></span><span>OPEN RESEARCH SYSTEM</span><span class="topbar-divider"></span><span class="no-key">No AI key required</span></div>
+  </header>
+
+  <main class="shell">
+    <section class="hero" id="hero">
+      <div class="eyebrow"><span class="eyebrow-line"></span>THE PAST, CONNECTED</div>
+      <h1>See how it <em>unfolded.</em></h1>
+      <p class="hero-copy">Trace any event from its first turning point to its final chapter.<br class="desktop-break"> Every moment linked to the sources behind it.</p>
+
+      <form class="research-form" id="research-form">
+        <label class="sr-only" for="topic">What do you want to research?</label>
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg>
+        <input id="topic" name="topic" maxlength="200" placeholder="Try “The French Revolution” or “Apollo 11”" autocomplete="off" required>
+        <button id="submit-button" type="submit"><span>Build timeline</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M10 5l5 5-5 5"/></svg></button>
+      </form>
+      <div class="form-meta"><span>RESEARCH A TOPIC</span><span class="meta-separator">/</span><span>GET A CITED EVENT GRAPH</span><span class="meta-spacer"></span><button class="options-toggle" id="options-toggle" type="button">Filters <span>+</span></button></div>
+      <div class="filters" id="filters" hidden>
+        <label>From <input id="start-date" type="date"></label>
+        <label>To <input id="end-date" type="date"></label>
+        <label>Source limit <select id="source-limit"><option value="12">12 sources</option><option value="20" selected>20 sources</option><option value="30">30 sources</option><option value="50">50 sources</option></select></label>
+      </div>
+
+      <div class="suggestions" id="suggestions">
+        <span class="suggest-label">EXPLORE</span>
+        <button type="button" data-topic="The French Revolution">French Revolution <span>↗</span></button>
+        <button type="button" data-topic="Apollo 11 mission">Apollo 11 <span>↗</span></button>
+        <button type="button" data-topic="Silicon Valley Bank collapse">SVB collapse <span>↗</span></button>
+        <button type="button" data-topic="Ayodhya land dispute">Ayodhya dispute <span>↗</span></button>
+      </div>
+    </section>
+
+    <section class="loading-state" id="loading-state" hidden aria-live="polite">
+      <div class="loading-orbit"><span></span><i></i><b></b></div>
+      <div class="loading-copy"><div class="eyebrow">RESEARCH IN PROGRESS</div><h2 id="loading-title">Connecting the dots…</h2><p id="loading-message">Searching trusted sources and building your event graph.</p></div>
+      <div class="loading-steps"><span class="step-active"><i>01</i> Find sources</span><span><i>02</i> Read evidence</span><span><i>03</i> Map the timeline</span></div>
+    </section>
+
+    <section class="results" id="results" hidden>
+      <div class="results-heading">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span>YOUR RESEARCH MAP</div><h2 id="result-topic">Event timeline</h2><p class="results-subtitle" id="results-subtitle"></p></div>
+        <button class="new-search" id="new-search" type="button"><span>＋</span> New research</button>
+      </div>
+      <div class="metrics" id="metrics"></div>
+      <div class="main-grid">
+        <section class="graph-panel panel">
+          <div class="panel-heading"><div><span class="panel-kicker">EVENT GRAPH</span><h3>Follow the sequence</h3></div><div class="graph-hint"><span class="tiny-node"></span> Select a moment to explore</div></div>
+          <div class="graph-scroll" id="graph-scroll"><div class="graph-canvas" id="graph-canvas"><svg class="graph-svg" id="graph-svg" aria-hidden="true"></svg><div class="graph-nodes" id="graph-nodes"></div></div></div>
+          <div class="graph-footer"><span id="graph-range"></span><span class="scroll-hint">SCROLL TO TRACE <span>→</span></span></div>
+        </section>
+        <aside class="detail-panel panel" id="detail-panel" aria-live="polite">
+          <div class="detail-empty"><div class="detail-orbit">✳</div><span class="panel-kicker">MOMENT DETAILS</span><p>Select a point on the graph to open the story behind it.</p></div>
+        </aside>
+      </div>
+      <section class="source-panel panel">
+        <div class="panel-heading source-heading"><div><span class="panel-kicker">RESEARCH TRAIL</span><h3>Sources consulted</h3></div><span class="source-count" id="source-count"></span></div>
+        <div class="sources-list" id="sources-list"></div>
+      </section>
+      <div class="report-note" id="report-note"></div>
+    </section>
+    <section class="empty-state" id="empty-state">
+      <div class="empty-graph" aria-hidden="true"><svg viewBox="0 0 520 130"><path d="M22 83 C85 83 86 40 149 40 S211 100 270 100 335 50 390 50 447 78 498 78"/><circle cx="22" cy="83" r="5"/><circle cx="149" cy="40" r="5"/><circle cx="270" cy="100" r="5"/><circle cx="390" cy="50" r="5"/><circle cx="498" cy="78" r="5"/></svg><div class="ghost-dates"><span>ORIGIN</span><span>TURNING POINT</span><span>OUTCOME</span></div></div>
+      <p>One topic opens a thousand connections.</p>
+      <span>Enter an event above to begin mapping its history.</span>
+    </section>
+    <div class="error-toast" id="error-toast" role="alert" hidden></div>
+  </main>
+  <footer class="footer"><span>EVENTGRAPH <span class="footer-year">/ RESEARCH, CONNECTED</span></span><span>Built from cited sources <i>✳</i></span></footer>
+</body>
+</html>
